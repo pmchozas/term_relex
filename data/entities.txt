@@ -1,5 +1,4 @@
 abono
-absoluta
 abuso
 abuso de derecho
 acceso
@@ -26,10 +25,8 @@ adopción
 adopción acogimiento riesgo
 adopción guarda
 adoptante guardador
-afectado
 afinidad
 alta
-amba
 amparo
 ampliación
 antelación
@@ -37,21 +34,15 @@ antelación mínima
 anterioridad
 antigüedad
 anuncio
-apartado
-apartado anterior
 apertura
 apertura del periodo
-aplicable
 aplicación
 aplicación e interpretación
 aprendizaje
 arbitraje
-arbitral
 arreglo
-artículo
 asamblea
 ascenso
-asimismo
 asistencia
 asistencia social
 asociación empresarial
@@ -59,7 +50,6 @@ aspecto
 atención
 ausencia
 ausencia de discriminación
-autonómico
 autoridad
 autoridad laboral
 autónoma
@@ -73,7 +63,6 @@ candidato
 cantidad
 capacidad
 capacidad representativa
-capítulo
 característica
 cargo
 carácter
@@ -85,7 +74,6 @@ causa
 causa económica técnica
 cedente
 celebración
-celebrado
 censo
 centro
 centro afectado
@@ -94,17 +82,13 @@ centros de trabajo
 certificación
 cesionario
 cesión
-ciento
 circunstancia
 clasificación
 clasificación profesional
 cláusula
 cobertura
 colaboración
-colectiva
 colectivo
-colectivo de ámbito
-colectivos de ámbito
 colocación
 comienzo
 comisión
@@ -118,22 +102,16 @@ comités de empresa
 compensación
 compensación económica
 competencia
-competente
-complementaria
 complemento
-completo
 componente
 comunicación
 comunicación empresarial
 comunidad
 comunidad autónoma
-común
 concepto
 conciliación
 concreción
-concurren
 concurrencia
-concursal
 condición
 conflicto
 conformidad
@@ -145,15 +123,10 @@ consecuencia
 consideración
 constitución
 consulta
-contenida
-contenido
 contingencia
 continuada
 continuidad
-contractual
-contrario
 contratación
-contratado
 contratista
 contrato
 contrato celebrado
@@ -169,7 +142,6 @@ convicción
 convocatoria
 copia
 copia básica
-correspondiente
 cotización
 criterio
 crédito
@@ -201,15 +173,12 @@ derecho
 derecho reconocido
 desarrollo
 descanso
-desempeñe
 desempeño
 desempleo
 designación
 despido
 despido colectivo
 desplazamiento
-determinada
-determinado
 dignidad
 dirección
 directamente
@@ -225,8 +194,6 @@ disposición adicional
 disposición legal
 disposición transitoria
 distancia
-distinta
-distinto
 distribución
 doble
 doble del salario
@@ -244,7 +211,6 @@ económica
 económica técnica organizativa
 edad
 edad de jubilación
-efectiva
 efectividad
 efectivo
 efecto
@@ -254,13 +220,11 @@ ejercicio
 ejercicio simultáneo
 elección
 elector
-electoral
 elegido
 elemento
 embarazo
 empresa
 empresa principal
-empresarial
 empresario
 empresario está obligado
 encadenamiento
@@ -269,13 +233,9 @@ ente organismo
 entidad
 entidad gestora
 entrada
-españa
-especial
 especialidad
-específica
 estabilidad
 establecimiento
-estatal
 estatuto
 estudio
 evolución
@@ -294,14 +254,12 @@ facultad
 falta
 falta de constitución
 familia
-familiar
 favor
 fe
 fecha
 fecha de inicio
-fehaciente
 fiesta
-fijosdiscontinuo
+fijo discontinuo
 finalización
 finalización del periodo
 fines de adopción
@@ -312,7 +270,6 @@ formación
 formación profesional
 fraude dolo coacción
 fuerza
-funcional
 funcionamiento
 función
 garantía
@@ -320,23 +277,18 @@ garantía salarial
 gasto
 gobierno
 grado
-grave
 grupo
 grupo profesional
 género
 hijo
 hombre
-horaria
 horario
 hospitalización
 identidad
 igualdad
 igualdad de trato
-igualmente
 importe
-imposibilidad
 improcedencia
-improcedente
 impugnación
 impugnado
 inaplicación
@@ -347,20 +299,14 @@ incumplimiento
 indemnización
 independencia
 indicación
-indicado
 indirecta
-individual
-inferior
 información
 infracción
 ingreso
 ingreso ordinario
-inherente
 iniciación
 inicio
 inicio del periodo
-ininterrumpido
-inmediatamente
 inserción
 insolvencia
 inspección
@@ -380,18 +326,13 @@ jubilación
 jubilación ordinaria
 jurisdicción
 jurisdicción social
-laborable
-laboral
 lactancia
 lactancia natural
 lactante
 laudo
 laudo arbitral
-legal
 legislación
 legitimación
-legitimada
-legitimado
 letra
 ley
 ley del estatuto
@@ -406,12 +347,10 @@ madre
 mandato
 marco
 materia
-mayoría
 mediación
 medida
 medida prevista
 medida urgente
-menor
 mensualidad
 mercado
 mesa
@@ -432,10 +371,6 @@ máxima
 máxima del contrato
 método
 nacimiento
-nacimiento adopción
-nacional
-nacional de convenio
-natural
 naturaleza
 necesidad
 negativa
@@ -443,7 +378,6 @@ negociación
 negociación colectiva
 nivel
 nivel de ingreso
-nocturno
 norma
 normal
 normativa
@@ -456,8 +390,6 @@ número máximo
 objetiva
 objeto
 obligación
-obligatoria
-obligatorio
 obra
 obtención
 ocupar
@@ -465,22 +397,17 @@ oficina
 oficina pública
 oficina pública dependiente
 opción
-oportuna
 oportunidad
 orden
-ordinaria
 organismo
 organización
 organización empresarial
 organización sindical
-organizativa
 orientación
 origen
-pactado
 pacto
 pago
 paralización
-parcial
 participación
 paternidad
 peculiaridad
@@ -493,14 +420,12 @@ periodo de suspensión
 perjuicio
 perjuicio del derecho
 permanencia
-permanente
 permiso
 persistente
 persona
 persona trabajadora
 personal
 personal laboral
-perteneciente
 petición
 plan
 plantilla
@@ -517,21 +442,16 @@ precepto
 preferencia
 prescripción
 presentación
-presente
 presidente
 prestación
 prestación de servicio
 prestación laboral
-presumirá
-presupuestaria
 prevención
 prevención de riesgo
 previsión
-previsto
 principio
 prioridad
 prioridad de permanencia
-procedente
 procedimiento
 procedimiento arbitral
 procedimiento de consulta
@@ -543,7 +463,6 @@ proceso electoral
 proclamación
 producción
 productiva
-profesional
 progenitor
 promoción
 promoción de elección
@@ -552,17 +471,11 @@ proporción
 protección
 práctica
 puesto de trabajo
-párrafo
-párrafo anterior
-párrafo del artículo
-pública
-público
 racial
 rango
 razón
 razón fundada
 readmisión
-real
 real decreto
 real decreto legislativo
 real decretoley
@@ -578,29 +491,22 @@ referida
 referida comunicación
 registro
 regla
-reglamentaria
 regulación
-regulado
 reincorporación
 relación
 relación laboral
-relativa
-relativo
 relevo
 religión
 remuneración
 representación
 representante
 representante legal
-representativa
-representativo
 requisito
 reserva
 resolución
 resolución judicial
 respectivo
 responsabilidad
-restante
 resto
 resultado
 retribución
@@ -609,7 +515,6 @@ revisión
 riesgo
 riesgo laboral
 régimen
-salarial
 salario
 salario mínimo
 salario mínimo interprofesional
@@ -628,9 +533,6 @@ servicio
 servicio público
 sexo
 sigilo
-siguiente regla
-simultáneo
-sindical
 sindicato
 sistema
 sistema de clasificación
@@ -638,34 +540,27 @@ situaciones de incapacidad
 situación
 situación de excedencia
 situación económica
-social
 sociedad
 solicitud
 solución
 sometimiento
 subcontratista
 sucesión
-suficiente
 sufragio
 sujeto
 sujeto indicado
-superior
 supuesto previsto
 suscrito
 suspensión
 suspensión del contrato
-sustancial de condición
 sustitución
 sustitución del periodo
 tablón
-temporal
 terminación
-territorial
 territorio
 texto
 texto refundido
 tipo
-totalidad
 trabajador
 trabajador afectado
 trabajador menor
@@ -683,8 +578,6 @@ traslado
 tratamiento
 trato
 turno
-técnica
-técnico
 término
 término establecido
 término previsto
@@ -698,7 +591,6 @@ vacante
 validez
 vida
 vigencia
-vigente
 vigilancia
 vigor
 violencia
@@ -707,8 +599,6 @@ virtud
 vista
 volumen
 voluntad
-voluntaria
-voluntario
 votación
 voto
 víctima
@@ -720,6 +610,5 @@ víctimas de violencia
 ámbito sectorial estatal
 ámbito territorial
 árbitro
-étnico
 órgano
 única comisión negociadora
