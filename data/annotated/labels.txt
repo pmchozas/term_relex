@@ -1,0 +1,4 @@
+Duty
+Privilege
+Right
+Noright
