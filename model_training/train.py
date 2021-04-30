@@ -64,7 +64,7 @@ def main(args: TrainerArgs):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('config_path',
+    parser.add_argument('--config_path',
                         type=str,
                         help='Relative (to this script) path to the config file')
     args = parser.parse_args()

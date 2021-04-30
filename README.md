@@ -11,6 +11,22 @@ The code and data of the related project.
 
 We use the cool and robust [R-BERT model](https://github.com/monologg/R-BERT) to recognize relations in the text.
 
+### How to run
+
+Check [train.conf](./model_training/train.conf) to provide the correct config values.
+
+0. Create virtual environment (see [this link](https://docs.python.org/3/library/venv.html)) and install requirements (`pip3 install -r requirements.txt`).
+1. Convert the manually annotated data
+   ```bash
+   cd model_training
+   python3 convert.py --config_path train.conf
+   ```
+2. Train model
+   ```bash
+   cd model_training
+   python3 train.py --config_path train.conf
+   ```
+
 ## Publications
 
 Recently our paper was accepted to [DeepOntoNLP @ EXWC 2021](https://sites.google.com/view/deepontonlp-eswc2021/)!
