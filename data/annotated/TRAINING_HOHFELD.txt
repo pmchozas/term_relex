@@ -66,7 +66,7 @@ RelationType: Right (rel)
 RelationSignature: LegalAgent-LegalConcept (e1, e2)
 RelationType: Duty (rel)
 
-18	Si el <e1>empresario</e1> diera un trabajo en común a un grupo de sus trabajadores, <rel>conservará</rel> respecto de cada uno, individualmente, sus derechos y <e3>deberes</e3>.
+18	Si el <e1>empresario</e1> diera un trabajo en común a un grupo de sus trabajadores, <rel>conservará</rel> respecto de cada uno, individualmente, sus derechos y <e2>deberes</e2>.
 RelationSignature: LegalAgent-LegalConcept (e1, e2)
 RelationType: Duty (rel)
 
@@ -202,11 +202,11 @@ RelationType: Noright (rel)
 RelationSignature: LegalConcept-Duration (e1, e2)
 RelationType: Noright (rel)
 
-52	En el supuesto de los contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el <e1>periodo de prueba<e1> <rel>no podrá exceder</rel> de <e2>un mes</e2>, salvo que se disponga otra cosa en convenio colectivo.
+52	En el supuesto de los contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el <e1>periodo de prueba</e1> <rel>no podrá exceder</rel> de <e2>un mes</e2>, salvo que se disponga otra cosa en convenio colectivo.
 RelationSignature: LegalConcept-Duration (e1, e2)
 RelationType: Noright (rel)
 
-53	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la representación legal de los trabajadores en las empresas los <e2>contratos<e2> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
+53	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la representación legal de los trabajadores en las empresas los <e2>contratos</e2> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
 RelationSignature: LegalAgent-LegalConcept (e1, e2)
 RelationType: Duty (rel)
 
@@ -290,7 +290,7 @@ RelationType: Duty (rel)
 RelationSignature: LegalAgent-LegalConcept (e1, e2)
 RelationType: Duty (rel)
 
-74	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <e2>remuneración<e2> consiguiente a un contrato válido.
+74	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <e2>remuneración</e2> consiguiente a un contrato válido.
 RelationSignature: Legal-Agent-LegalConcept (e1, e2)
 RelationType: Right (rel)
 

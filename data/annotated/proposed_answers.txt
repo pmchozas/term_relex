@@ -1,0 +1,10 @@
+8001	Duty
+8002	Right
+8003	Right
+8004	Duty
+8005	Right
+8006	Right
+8007	Duty
+8008	Duty
+8009	Right
+8010	Duty
