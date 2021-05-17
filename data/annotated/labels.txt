@@ -1,4 +1,4 @@
 Noright
-Duty
 Privilege
 Right
+Duty
