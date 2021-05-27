@@ -1,0 +1,121 @@
+1	Este <e1>real decreto legislativo</e1> ha sido sometido a consulta de las <e2>organizaciones sindicales</e2> y empresariales más representativas. 
+RelationSignature: LegalDocument-LegalEntity (e1, e2)
+RelationType: Norelation (rel)
+
+2	La <e1>disposición adicional</e1> cuarta y la <e2>disposición transitoria</e2> segunda de la Ley 12/2001, de 9 de julio, de medidas urgentes de reforma del mercado de trabajo para el incremento del empleo y la mejora de su calidad.
+RelationSignature: LegalDocument-LegalDocument (e1, e2)
+RelationType: Norelation (rel)
+
+3	Esta <e1>ley</e1> será de aplicación a los <e2>trabajadores</e2> que voluntariamente presten sus servicios retribuidos por cuenta ajena y dentro del ámbito de organización y dirección de otra persona, física o jurídica, denominada empleador o empresario.
+RelationSignature: LegalConcept-LegalAgent (e1, e2)
+RelationType: Other(applies_to) (rel)
+
+4	A los efectos de esta <e1>ley</e1>, serán <e2>empresarios</e2> todas las personas, físicas o jurídicas, o comunidades de bienes que reciban la prestación de servicios de las personas referidas en el apartado anterior, así como de las personas contratadas para ser cedidas a empresas usuarias por empresas de trabajo temporal legalmente constituidas.
+RelationSignature: LegalConcept-LegalAgent (e1, e2)
+RelationType: Norelation (rel)
+
+5	La actividad que se limite, pura y simplemente, al mero desempeño del cargo de consejero o miembro de los <e1>órganos de administración</e1> en las <e2>empresas</e2> que revistan la forma jurídica de sociedad y siempre que su actividad en la empresa solo comporte la realización de cometidos inherentes a tal cargo.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
+RelationType: Norelation (rel)
+
+6	La <e1>legislación laboral española</e1> será de aplicación al <e2>trabajo</e2> que presten los trabajadores españoles contratados en España al servicio de empresas españolas en el extranjero, sin perjuicio de las normas de orden público aplicables en el lugar de trabajo.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Other(applies_to) (rel)
+
+7	 A efectos de esta ley se considera <e1>centro de trabajo</e1> la unidad productiva con organización específica, que sea dada de alta, como tal, ante la <e2>autoridad laboral</e2>.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
+RelationType: Norelation (rel)
+
+8	Por la voluntad de las partes, manifestada en el contrato de trabajo, siendo su objeto lícito y sin que en ningún caso puedan establecerse en perjuicio del trabajador condiciones menos favorables o contrarias a las <e1>disposiciones legales</e1> y <e2>convenios colectivos</e2> antes expresados.
+RelationSignature: LegalDocument-LegalDocument (e1, e2)
+RelationType: Norelation (rel)
+
+9	 A la <e1>promoción</e1> y <e2>formación profesional</e2> en el trabajo, incluida la dirigida a su adaptación a las modificaciones operadas en el puesto de trabajo, así como al desarrollo de planes y acciones formativas tendentes a favorecer su mayor empleabilidad.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+10	Los representantes de la Administración, así como los de las organizaciones sindicales y de las asociaciones empresariales, que tengan acceso a la <e1>copia básica</e1> de los contratos en virtud de su pertenencia a los órganos de participación institucional que reglamentariamente tengan tales facultades, observarán <e2>sigilo profesional</e2>, no pudiendo utilizar dicha documentación para fines distintos de los que motivaron su conocimiento.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+11	En caso de <e1>nulidad</e1> por <e2>discriminación salarial</e2> por razón de sexo, el trabajador tendrá derecho a la retribución correspondiente al trabajo igual o de igual valor.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Other(caused_by) (rel)
+
+12	La <e1>retribución</e1> del trabajador será la fijada en <e2>convenio colectivo</e2> para los trabajadores en prácticas, sin que, en su defecto, pueda ser inferior al sesenta o al setenta y cinco por ciento durante el primero o el segundo año de vigencia del contrato, respectivamente, del salario fijado en convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo.
+RelationSignature: LegalConcept-LegalDocument (e1, e2)
+RelationType: Other(established_by) (rel)
+
+13	Si en la empresa no hubiera ningún trabajador comparable a tiempo completo, se considerará la <e1>jornada a tiempo completo</e1> prevista en el <e2>convenio colectivo</e2> de aplicación o, en su defecto, la jornada máxima legal.
+RelationSignature: LegalConcept-LegalDocument (e1, e2)
+RelationType: Other(established_by) (rel)
+
+14	Salvo lo establecido en los dos párrafos siguientes, la duración del <e1>contrato de relevo</e1> que se celebre como consecuencia de una <e2>jubilación parcial</e2> tendrá que ser indefinida o, como mínimo, igual al tiempo que falte al trabajador sustituido para alcanzar la edad de jubilación ordinaria que corresponda conforme a lo establecido en el texto refundido de la Ley General de la Seguridad Social.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Other(caused_by) (rel)
+
+15	Si, al cumplir dicha edad, el <e1>trabajador jubilado</e1> parcialmente continuase en la empresa, el <e2>contrato de relevo</e2> que se hubiera celebrado por duración determinada podrá prorrogarse mediante acuerdo con las partes por periodos anuales, extinguiéndose en todo caso al finalizar el periodo correspondiente al año en el que se produzca la jubilación total del trabajador relevado.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+16	Los <e1>trabajadores a distancia</e1> tendrán los mismos derechos que los que prestan sus servicios en el <e2>centro de trabajo</e2> de la empresa, salvo aquellos que sean inherentes a la realización de la prestación laboral en el mismo de manera presencial.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Norelation (rel)
+
+17 Se presumirán por tiempo indefinido los <e1>contratos temporales</e1> celebrados en <e2>fraude de ley</e2>.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+18	Se entenderán nulos y sin efecto los preceptos reglamentarios, las <e1>cláusulas</e1> de los <e2>convenios colectivos</e2>, los pactos individuales y las decisiones unilaterales del empresario que den lugar en el empleo, así como en materia de retribuciones, jornada y demás condiciones de trabajo, a situaciones de discriminación directa o indirecta desfavorables por razón de edad o discapacidad o a situaciones de discriminación directa o indirecta por razón de sexo, origen, incluido el racial o étnico, estado civil, condición social, religión o convicciones, ideas políticas, orientación o condición sexual, adhesión o no a sindicatos y a sus acuerdos, vínculos de parentesco con personas pertenecientes a o relacionadas con la empresa y lengua dentro del Estado español.
+RelationSignature: LegalConcept-LegalDocument (e1, e2)
+RelationType: Other(part_of) (rel)
+
+19	Asimismo, la <e1>negociación colectiva</e1> podrá establecer este tipo de medidas en las condiciones de clasificación profesional, promoción y formación, de modo que, en igualdad de condiciones de idoneidad, tengan preferencia las personas del sexo menos representado para favorecer su acceso al grupo profesional o <e2>puesto de trabajo</e2> de que se trate.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+20	El acuerdo será comunicado de inmediato a la <e1>empresa</e1> y a la <e2>autoridad laboral</e2>, la cual, en veinticuatro horas, anulará o ratificará la paralización acordada.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+21	Los trabajadores con al menos un año de antigüedad en la <e1>empresa</e1> tienen derecho a un <e1>permiso retribuido</e1> de veinte horas anuales de formación profesional para el empleo, vinculada a la actividad de la empresa, acumulables por un periodo de hasta cinco años.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+22	El derecho se entenderá cumplido en todo caso cuando el trabajador pueda realizar las acciones formativas dirigidas a la obtención de la <e1>formación profesional</e1> para el empleo en el marco de un <e2>plan de formación</e2> desarrollado por iniciativa empresarial o comprometido por la negociación colectiva.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Other(part_of) (rel)
+
+23	En defecto de lo previsto en <e1>convenio colectivo</e1>, la concreción del modo de disfrute del permiso se fijará de mutuo acuerdo entre trabajador y <e2>empresario</e2>.
+RelationSignature: LegalDocument-LegalAgent (e1, e2)
+RelationType: Norelation (rel)
+
+24	Los <e1>ascensos</e1> dentro del sistema de clasificación profesional se producirán conforme a lo que se establezca en convenio o, en su defecto, en <e2>acuerdo colectivo</e2> entre la empresa y los representantes de los trabajadores
+RelationSignature: LegalConcept-LegalDocument (e1, e2)
+RelationType: Norelation (rel)
+
+25	La duración de la <e1>jornada de trabajo</e1> será la pactada en los <e2>convenios colectivos</e2> o contratos de trabajo
+RelationSignature: LegalConcept-LegalDocument (e1, e2)
+RelationType: Other(established_in) (rel)
+
+26	Este <e1>periodo de descanso</e1> se considerará tiempo de <e2>trabajo efectivo</e2> cuando así esté establecido o se establezca por convenio colectivo o contrato de trabajo.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Other(is_considered) (rel)
+
+27	La <e1>jornada de trabajo</e2> de los trabajadores nocturnos no podrá exceder de ocho horas diarias de promedio, en un <e2>periodo</e2> de referencia de quince días.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+28	Igualmente, el Gobierno podrá establecer limitaciones y <e1>garantías</e1> adicionales a las previstas en el presente artículo para la realización de <e2>trabajo nocturno</e2> en ciertas actividades o por determinada categoría de trabajadores, en función de los riesgos que comporten para su salud y seguridad.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+29	Dichas <e1>exigencias</e1> deberán ser tenidas particularmente en cuenta a la hora de determinar los <e2>periodos de descanso</e2> durante la jornada de trabajo.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+30	La persona trabajadora, salvo fuerza mayor, deberá preavisar al <e1>empresario</e1> con una antelación de quince días o la que se determine en el convenio colectivo aplicable, precisando la fecha en que iniciará y finalizará el permiso</span> de cuidado del lactante o la <e2>reducción de jornada</e2>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+
