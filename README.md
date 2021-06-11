@@ -15,13 +15,15 @@ We use the cool and robust [R-BERT model](https://github.com/monologg/R-BERT) to
 
 Check [train.conf](./model_training/train.conf) to provide the correct config values.
 
-0. Create virtual environment (see [this link](https://docs.python.org/3/library/venv.html)) and install requirements (`pip3 install -r requirements.txt`).
-1. Convert the manually annotated data
+0. Create virtual environment (see [this link](https://docs.python.org/3/library/venv.html)). 
+   
+1. Clone R-BERT: `git clone https://github.com/monologg/R-BERT.git`, add R-BERT to your PYTHONPATH: `export PYTHONPATH=$PYTHONPATH:./R-BERT`. In `R-BERT/utils.py` comment oiut line 65 (`        "f1": official_f1(),`).
+2. Convert the manually annotated data
    ```bash
    cd model_training
    python3 convert.py --config_path train.conf
    ```
-2. Train model
+3. Train model
    ```bash
    cd model_training
    python3 train.py --config_path train.conf
@@ -29,6 +31,6 @@ Check [train.conf](./model_training/train.conf) to provide the correct config va
 
 ## Publications
 
-Recently our paper was accepted to [DeepOntoNLP @ EXWC 2021](https://sites.google.com/view/deepontonlp-eswc2021/)!
+Recently our paper was accepted to [DeepOntoNLP @ ESWC 2021](https://sites.google.com/view/deepontonlp-eswc2021/)!
 
 Citation information will appear here when the proceedings are published.

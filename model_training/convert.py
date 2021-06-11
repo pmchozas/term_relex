@@ -11,7 +11,7 @@ class RelationTypes(Enum):
     right = 'Right'
     noright = 'Noright'
     privilege = 'Privilege'
-    # other = 'Other'
+    norelation = 'Norelation'
 
     @classmethod
     def set(cls):

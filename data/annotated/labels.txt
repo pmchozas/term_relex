@@ -1,4 +1,5 @@
-Noright
 Privilege
 Right
+Norelation
 Duty
+Noright
