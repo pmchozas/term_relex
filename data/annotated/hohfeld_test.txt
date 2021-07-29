@@ -1,0 +1,15 @@
+1	Las <e1>disposiciones reglamentarias</e1> desarrollarán los preceptos que establecen las normas de rango superior, pero <rel>no podrán establecer</rel> <e2>condiciones de trabajo</e2> distintas a las establecidas por las leyes a desarrollar.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+2	Los conflictos originados entre los preceptos de dos o más <e1>normas laborales</e1>, tanto estatales como pactadas, que <rel>deberán respetar</rel> en todo caso los <e2>mínimos de derecho necesario</e2>, se resolverán mediante la aplicación de lo más favorable para el trabajador apreciado en su conjunto, y en cómputo anual, respecto de los conceptos cuantificables.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+3	Los <e1>trabajadores</e1> <rel>no podrán disponer</rel> válidamente, antes o después de su adquisición, de los <e2>derechos</e2> que tengan reconocidos por disposiciones legales de derecho necesario. 
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+4	<rel>Se prohíbe realizar</rel> <e2>horas extraordinarias</e2> a los <e1>menores de dieciocho años</e1>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
