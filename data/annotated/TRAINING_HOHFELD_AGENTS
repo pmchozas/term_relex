@@ -1,215 +1,215 @@
-1	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo<e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el contenido de los contratos de trabajo que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
+1	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo<e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, <comp>el contenido de los contratos de trabajo</comp> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-2	El <e1>empresario</e1> <rel>entregará</rel> a la <e2>representación legal de los trabajadores</e2> una copia básica de todos los contratos que deban celebrarse por escrito, a excepción de los contratos de relación laboral especial de alta dirección sobre los que se establece el deber de notificación a la representación legal de los trabajadores.
+2	El <e1>empresario</e1> <rel>entregará</rel> a la <e2>representación legal de los trabajadores</e2> una <comp>copia básica</comp> de todos los contratos que deban celebrarse por escrito, a excepción de los contratos de relación laboral especial de alta dirección sobre los que se establece el deber de notificación a la representación legal de los trabajadores.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-3	La copia básica <rel>se entregará</rel> por el <e1>empresario</e1>, en plazo no superior a diez días desde la formalización del contrato, a los <e2>representantes legales de los trabajadores</e2>, quienes la firmarán a efectos de acreditar que se ha producido la entrega.
+3	La <comp>copia básica</comp> <rel>se entregará</rel> por el <e1>empresario</e1>, en plazo no superior a diez días desde la formalización del contrato, a los <e2>representantes legales de los trabajadores</e2>, quienes la firmarán a efectos de acreditar que se ha producido la entrega.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-4	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los elementos esenciales del contrato y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+4	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los <comp>elementos esenciales del contrato</comp> y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-5	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la remuneración consiguiente a un contrato válido.
+5	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <comp>remuneración</comp> consiguiente a un contrato válido.
 RelationSignature: LegalAgent/LegalEntity (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-6	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> <e2>de la Administración pública</e2> competente la expedición del correspondiente certificado de profesionalidad, título de formación profesional o, en su caso, acreditación parcial acumulable.
+6	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> <e2>de la Administración pública</e2> competente la <comp>expedición del correspondiente certificado de profesionalidad</comp>, título de formación profesional o, en su caso, acreditación parcial acumulable.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 
-7	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la existencia de puestos de trabajo vacantes, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
+7	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la <comp>existencia de puestos de trabajo vacantes</comp>, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
 
-8	El <e1>empresario</e1> solo <rel>podrá exigir la realización de horas complementarias</rel> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
+8	El <e1>empresario</e1> solo <rel>podrá exigir</rel> la <comp>realización de horas complementarias</comp> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-9	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la <e2>representación legal de los trabajadores</e2> en las empresas los contratos realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
+9	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la <e2>representación legal de los trabajadores en las empresas</e2> <comp>los contratos realizados</comp> de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-10	Asimismo, el <e1>Gobierno</e1> <rel>podrá otorgar subvenciones, desgravaciones y otras medidas para fomentar el empleo</rel> de grupos específicos de trabajadores que encuentren dificultades especiales para acceder al empleo. La regulación de las mismas se hará previa consulta a las organizaciones sindicales y asociaciones empresariales más representativas.
+10	Asimismo, el <e1>Gobierno</e1> <rel>podrá otorgar</rel> <comp>subvenciones, desgravaciones y otras medidas</comp> para fomentar el empleo de grupos específicos de trabajadores que encuentren dificultades especiales para acceder al empleo. La regulación de las mismas se hará previa consulta a las organizaciones sindicales y asociaciones empresariales más representativas.
 RelationSignature: LegalEntity-LegalEntity (e1, e2)
 RelationType: Privilege (rel)
 MissingE2: empresa
 
-11	El <e1>empresario</e1> <rel>está obligado a garantizar que cada <e2>trabajador</e2> reciba una formación teórica y práctica</rel>, suficiente y adecuada, en materia preventiva tanto en el momento de su contratación, cualquiera que sea la modalidad o duración de esta, como cuando se produzcan cambios en las funciones que desempeñe o se introduzcan nuevas tecnologías o cambios en los equipos de trabajo.
+11	El <e1>empresario</e1> <rel>está obligado a garantizar que cada <e2>trabajador</e2> reciba</rel> una <comp>formación teórica y práctica</comp>, suficiente y adecuada, en materia preventiva tanto en el momento de su contratación, cualquiera que sea la modalidad o duración de esta, como cuando se produzcan cambios en las funciones que desempeñe o se introduzcan nuevas tecnologías o cambios en los equipos de trabajo.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-12	El <e1>trabajador</e1> <rel>estará obligado a realizar el trabajo convenido</rel> bajo la dirección del <e2>empresario</e2> o persona en quien este delegue.
+12	El <e1>trabajador</e1> <rel>estará obligado a realizar</rel> <comp>el trabajo convenido</comp> bajo la dirección del <e2>empresario</e2> o persona en quien este delegue.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-13	El <e1>empresario</e1> <rel>podrá adoptar las medidas que estime más oportunas de vigilancia y control</rel> para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
+13	El <e1>empresario</e1> <rel>podrá adoptar</rel> <comp>las medidas que estime más oportunas de vigilancia y control</comp> para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-14	El <e1>empresario</e1> <rel>podrá verificar el estado de salud</rel> del <e2>trabajador</e2> que sea alegado por este para justificar sus faltas de asistencia al trabajo, mediante reconocimiento a cargo de personal médico. 
+14	El <e1>empresario</e1> <rel>podrá verificar</rel> el <comp>estado de salud</comp> del <e2>trabajador</e2> que sea alegado por este para justificar sus faltas de asistencia al trabajo, mediante reconocimiento a cargo de personal médico. 
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-15 	Los <e1>trabajadores</e1> <rel>tienen derecho a la intimidad en el uso de los dispositivos digitales</rel> puestos a su disposición por el <e2>empleador</e2>, a la desconexión digital y a la intimidad frente al uso de dispositivos de videovigilancia y geolocalización en los términos establecidos en la legislación vigente en materia de protección de datos personales y garantía de los derechos digitales.
+15 	Los <e1>trabajadores</e1> <rel>tienen derecho</rel> a la <comp>intimidad en el uso de los dispositivos digitales</comp> puestos a su disposición por el <e2>empleador</e2>, a la desconexión digital y a la intimidad frente al uso de dispositivos de videovigilancia y geolocalización en los términos establecidos en la legislación vigente en materia de protección de datos personales y garantía de los derechos digitales.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-16	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo</e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el contenido de los contratos de trabajo que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
+16	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo</e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el <comp>contenido de los contratos de trabajo</comp> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-17	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los elementos esenciales del contrato y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+17	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los <comp>elementos esenciales del contrato</comp> y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-18	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir, por el trabajo que ya hubiese prestado, la remuneración consiguiente a un contrato válido</rel>.
+18	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <comp>remuneración</comp> consiguiente a un contrato válido.
 RelationSignature: Legal-Agent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-19	El <e1>trabajador</e1> <rel>deberá recibir la formación inherente al contrato para la formación y el aprendizaje</rel> directamente en un centro formativo de la red a que se refiere la disposición adicional quinta de la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, previamente reconocido para ello por el Sistema Nacional de Empleo.
+19	El <e1>trabajador</e1> <rel>deberá recibir</rel> la <comp>formación</comp> inherente al contrato para la formación y el aprendizaje directamente en un centro formativo de la red a que se refiere la disposición adicional quinta de la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, previamente reconocido para ello por el Sistema Nacional de Empleo.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-20	El <e1>empresario</e1> <rel>deberá conservar los resúmenes mensuales de los registros de jornada</rel> durante un periodo mínimo de cuatro años.
+20	El <e1>empresario</e1> <rel>deberá conservar</rel> los <comp>resúmenes mensuales de los registros de jornada</comp> durante un periodo mínimo de cuatro años.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 MissingE2: trabajador
 
-21	<rel>La denegación de la solicitud deberá ser notificada</rel> por el <e1>empresario</e1> al <e2>trabajador</e2> por escrito y de manera motivada.
+21	La <comp>denegación de la solicitud</comp> <rel>deberá ser notificada</rel> por el <e1>empresario</e1> al <e2>trabajador</e2> por escrito y de manera motivada.
 RelationSignature: LegalAgent-LegalConcept (e1, e2)
 RelationType: Duty (rel)
 
-22	El <e1>empresario</e1> solo <rel>podrá exigir la realización de horas complementarias</rel> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
+22	El <e1>empresario</e1> solo <rel>podrá exigir</rel> la <comp>realización de horas complementarias</comp> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-23	Los <e2>trabajadores menores de dieciocho años</e2> <rel>no podrán realizar trabajos nocturnos</rel> ni aquellas actividades o puestos de trabajo respecto a los que se establezcan limitaciones a su contratación conforme a lo dispuesto en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en las normas reglamentarias aplicables.
+23	Los <e2>trabajadores menores de dieciocho años</e2> <rel>no podrán realizar</rel> <comp>trabajos nocturnos<comp> ni aquellas actividades o puestos de trabajo respecto a los que se establezcan limitaciones a su contratación conforme a lo dispuesto en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en las normas reglamentarias aplicables.
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Noright (rel)
 MissingE1: empresa
 
-24	<rel>Se prohíbe realizar horas extraordinarias</rel> a los <e2>menores de dieciocho años</2>
+24	<rel>Se prohíbe realizar</rel> <comp>horas extraordinarias</comp> a los <e2>menores de dieciocho años</2>
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Noright (rel)
-MissingE1: gobierno
+MissingE1: empresa
 
-25	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo</e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el contenido de los contratos de trabajo que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
+25	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo</e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el <comp>contenido de los contratos de trabajo</comp> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-26	El <e1>empresario</e1> <rel>entregará</rel> a la <e2>representación legal de los trabajadores</e2> una copia básica de todos los contratos que deban celebrarse por escrito, a excepción de los contratos de relación laboral especial de alta dirección sobre los que se establece el deber de notificación a la representación legal de los trabajadores.
+26	El <e1>empresario</e1> <rel>entregará</rel> a la <e2>representación legal de los trabajadores</e2> una <comp>copia básica</comp> de todos los contratos que deban celebrarse por escrito, a excepción de los contratos de relación laboral especial de alta dirección sobre los que se establece el deber de notificación a la representación legal de los trabajadores.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-27	<rel>La copia básica se entregará</rel> por el <e1>empresario</e1>, en plazo no superior a diez días desde la formalización del contrato, a los <e2>representantes legales de los trabajadores</e2>, quienes la firmarán a efectos de acreditar que se ha producido la entrega.
+27	La <comp>copia básica</comp> <rel>se entregará</rel> por el <e1>empresario</e1>, en plazo no superior a diez días desde la formalización del contrato, a los <e2>representantes legales de los trabajadores</e2>, quienes la firmarán a efectos de acreditar que se ha producido la entrega.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-28	Los <e1>representantes de la Administración</e1>, así como los de las organizaciones sindicales y de las asociaciones empresariales, que tengan acceso a la copia básica de los contratos en virtud de su pertenencia a los órganos de participación institucional que reglamentariamente tengan tales facultades, <rel>observarán sigilo profesional</rel>, no pudiendo utilizar dicha documentación para fines distintos de los que motivaron su conocimiento.
+28	Los <e1>representantes de la Administración</e1>, así como los de las organizaciones sindicales y de las asociaciones empresariales, que tengan acceso a la copia básica de los contratos en virtud de su pertenencia a los órganos de participación institucional que reglamentariamente tengan tales facultades, <rel>observarán</rel> <comp>sigilo profesional</comp>, no pudiendo utilizar dicha documentación para fines distintos de los que motivaron su conocimiento.
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 MissingE2: trabajador
 
-29	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los elementos esenciales del contrato y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+29	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los <comp>elementos esenciales del contrato</comp> y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-30	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir, por el trabajo que ya hubiese prestado, la remuneración</rel> consiguiente a un contrato válido.
+30	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <comp>remuneración</comp> consiguiente a un contrato válido.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-31	En caso de nulidad por discriminación salarial por razón de sexo, el <e1>trabajador</e1> <rel>tendrá derecho a la retribución</rel> correspondiente al trabajo igual o de igual valor.
+31	En caso de nulidad por discriminación salarial por razón de sexo, el <e1>trabajador</e1> <rel>tendrá derecho</rel> a la <comp>retribución</comp> correspondiente al trabajo igual o de igual valor.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-32	Ningún <e1>trabajador</e1> <rel>podrá estar contratado en prácticas</rel> en la misma o distinta <e2>empresa</e2> por tiempo superior a dos años en virtud de la misma titulación o certificado de profesionalidad.
+32	Ningún <e2>trabajador</e2> <rel>podrá estar</rel> <comp>contratado en prácticas</comp> en la misma o distinta <e1>empresa</e1> por tiempo superior a dos años en virtud de la misma titulación o certificado de profesionalidad.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Noright (rel)
 
-33	Expirada la duración del contrato para la formación y el aprendizaje, el <e2>trabajador</e2> <rel>no podrá ser contratado</rel> bajo esta modalidad por la misma o distinta <e1>empresa</e1>, salvo que la formación inherente al nuevo contrato tenga por objeto la obtención de distinta cualificación profesional.
+33	Expirada la duración del contrato para la formación y el aprendizaje, el <e2>trabajador</e2> <rel>no podrá ser</rel> <comp>contratado</comp> bajo esta modalidad por la misma o distinta <e1>empresa</e1>, salvo que la formación inherente al nuevo contrato tenga por objeto la obtención de distinta cualificación profesional.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Noright (rel)
 
-34	Los <e1>trabajadores a tiempo parcial</e1> <rel>no podrán realizar horas extraordinarias</rel>, salvo en los supuestos a los que se refiere el artículo 35.3.
+34	Los <e1>trabajadores a tiempo parcial</e1> <rel>no podrán realizar</rel> <comp>horas extraordinarias</comp>, salvo en los supuestos a los que se refiere el artículo 35.3.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Noright (rel)
 MissingE2: empresa
 
-35	El <e1>empresario</e1> <rel>deberá conservar los resúmenes mensuales de los registros de jornada</rel> durante un periodo mínimo de cuatro años.
+35	El <e1>empresario</e1> <rel>deberá conservar</rel> <comp>los resúmenes mensuales de los registros de jornada</comp> durante un periodo mínimo de cuatro años.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 MissingE2: trabajador
 
-36	El <e1>trabajador</e1> <rel>no podrá ser despedido ni sufrir ningún otro tipo de sanción o efecto perjudicial</rel> por el hecho de rechazar esta conversión, sin perjuicio de las medidas que, de conformidad con lo dispuesto en los artículos 51 y 52.c), puedan adoptarse por causas económicas, técnicas, organizativas o de producción. 
+36	El <e1>trabajador</e1> <rel>no podrá ser</rel> <comp>despedido</comp> ni sufrir ningún otro tipo de sanción o efecto perjudicial por el hecho de rechazar esta conversión, sin perjuicio de las medidas que, de conformidad con lo dispuesto en los artículos 51 y 52.c), puedan adoptarse por causas económicas, técnicas, organizativas o de producción. 
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-37	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la existencia de puestos de trabajo vacantes, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
+37	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la <comp>existencia de puestos de trabajo vacantes</comp>, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-38	El <e1>empresario</e1> solo <rel>podrá exigir la realización de horas complementarias</rel> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
+38	El <e1>empresario</e1> solo <rel>podrá exigir la realización</rel> de <comp>horas complementarias</comp> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-39	Los <e1>empresarios</e1> <rel>habrán de notificar</e1> a la <e2>representación legal de los trabajadores</e2> en las empresas <rel>los contratos realizados</rel> de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
+39	Los <e1>empresarios</e1> <rel>habrán de notificar</e1> a la <e2>representación legal de los trabajadores</e2> en las empresas los <comp>contratos</comp> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
-40	El <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa con contratos de duración determinada o temporales, incluidos los contratos formativos, sobre la existencia de puestos de trabajo vacantes, a fin de garantizarles las mismas oportunidades de acceder a puestos permanentes que los demás trabajadores.
+40	El <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa con contratos de duración determinada o temporales, incluidos los contratos formativos, sobre la <comp>existencia de puestos de trabajo vacantes</comp>, a fin de garantizarles las mismas oportunidades de acceder a puestos permanentes que los demás trabajadores.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-41	El <e1>empresario</e1> <rel>podrá adoptar las medidas que estime más oportunas de vigilancia y control</rel> para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
+41	El <e1>empresario</e1> <rel>podrá adoptar</rel> las <comp>medidas<comp> que estime más oportunas de vigilancia y control para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-42	 El <e1>empresario</e1> <rel>podrá verificar el estado de salud</rel> del <e2>trabajador</e2> que sea alegado por este para justificar sus faltas de asistencia al trabajo, mediante reconocimiento a cargo de personal médico. 
+42	 El <e1>empresario</e1> <rel>podrá verificar</rel> el <comp>estado de salud</comp> del <e2>trabajador</e2> que sea alegado por este para justificar sus faltas de asistencia al trabajo, mediante reconocimiento a cargo de personal médico. 
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-43	Los <e1>trabajadores</e1> <rel>tienen derecho a la intimidad en el uso de los dispositivos digitales</rel> puestos a su disposición por el <e2>empleador</e2>, a la desconexión digital y a la intimidad frente al uso de dispositivos de videovigilancia y geolocalización en los términos establecidos en la legislación vigente en materia de protección de datos personales y garantía de los derechos digitales.
+43	Los <e1>trabajadores</e1> <rel>tienen derecho</rel> a la <comp>intimidad en el uso de los dispositivos digitales</comp> puestos a su disposición por el <e2>empleador</e2>, a la desconexión digital y a la intimidad frente al uso de dispositivos de videovigilancia y geolocalización en los términos establecidos en la legislación vigente en materia de protección de datos personales y garantía de los derechos digitales.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-44	En el supuesto de compensación económica por la plena dedicación, el <e1>trabajador</e1> <rel>podrá rescindir el acuerdo</rel> y recuperar su libertad de trabajo en otro empleo, comunicándolo por escrito al <e2>empresario</e2> con un preaviso de treinta días, perdiéndose en este caso la compensación económica u otros derechos vinculados a la plena dedicación
+44	En el supuesto de compensación económica por la plena dedicación, el <e1>trabajador</e1> <rel>podrá rescindir</rel> el <comp>acuerdo</comp> y recuperar su libertad de trabajo en otro empleo, comunicándolo por escrito al <e2>empresario</e2> con un preaviso de treinta días, perdiéndose en este caso la compensación económica u otros derechos vinculados a la plena dedicación
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-45	Los <e1>trabajadores</e1> con al menos un año de antigüedad en la empresa <rel>tienen derecho a un permiso retribuido de veinte horas anuales de formación profesional</rel> para el empleo, vinculada a la actividad de la <e2>empresa</e2>, acumulables por un periodo de hasta cinco años.
+45	Los <e1>trabajadores</e1> con al menos un año de antigüedad en la empresa <rel>tienen derecho</rel> a un <comp>permiso<comp> retribuido de veinte horas anuales de formación profesional para el empleo, vinculada a la actividad de la <e2>empresa</e2>, acumulables por un periodo de hasta cinco años.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 
-46	El <e1>empresario</e1> <rel>está obligado a pagar por la prestación de un trabajo de igual valor la misma retribución</rel>, satisfecha directa o indirectamente, y cualquiera que sea la naturaleza de la misma, salarial o extrasalarial, sin que pueda producirse discriminación alguna por razón de sexo en ninguno de los elementos o condiciones de aquella.
+46	El <e1>empresario</e1> <rel>está obligado a pagar</rel> por la <comp>prestación</comp> de un trabajo de igual valor la misma retribución, satisfecha directa o indirectamente, y cualquiera que sea la naturaleza de la misma, salarial o extrasalarial, sin que pueda producirse discriminación alguna por razón de sexo en ninguno de los elementos o condiciones de aquella.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 MissingE2: trabajador
 
-47	 El <e1>empresario</e1> <rel>está obligado a llevar un registro con los valores medios de los salarios</rel>, los complementos salariales y las percepciones extrasalariales de su plantilla, desagregados por sexo y distribuidos por grupos profesionales, categorías profesionales o puestos de trabajo iguales o de igual valor.
+47	 El <e1>empresario</e1> <rel>está obligado a llevar</rel> un <comp>registro con los valores medios de los salarios</comp>, los complementos salariales y las percepciones extrasalariales de su plantilla, desagregados por sexo y distribuidos por grupos profesionales, categorías profesionales o puestos de trabajo iguales o de igual valor.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 MissingE2: trabajador
 
-48	El <e1>Fondo de Garantía Salarial</e1>, organismo autónomo adscrito al Ministerio de Empleo y Seguridad Social, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, <rel>abonará a los <e2>trabajadores</e2> el importe de los salarios pendientes de pago</rel> a causa de insolvencia o concurso del empresario.
+48	El <e1>Fondo de Garantía Salarial</e1>, organismo autónomo adscrito al Ministerio de Empleo y Seguridad Social, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, <rel>abonará</rel> a los <e2>trabajadores</e2> el <comp>importe de los salarios pendientes de pago</comp> a causa de insolvencia o concurso del empresario.
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-49 El <e1>Fondo de Garantía Salarial</e1>, en los casos del apartado anterior, <rel>abonará indemnizaciones reconocidas como consecuencia de sentencia, auto, acto de conciliación judicial o resolución administrativa</rel> a favor de los <e2>trabajadores</e2> a causa de despido o extinción de los contratos conforme a los artículos 50, 51 y 52 de esta ley, y de extinción de contratos conforme al artículo 64 de la Ley 22/2003, de 9 de julio, Concursal, así como las indemnizaciones por extinción de contratos temporales o de duración determinada en los casos que legalmente procedan
+49 El <e1>Fondo de Garantía Salarial</e1>, en los casos del apartado anterior, <rel>abonará</rel> <comp>indemnizaciones<comp> reconocidas como consecuencia de sentencia, auto, acto de conciliación judicial o resolución administrativa a favor de los <e2>trabajadores</e2> a causa de despido o extinción de los contratos conforme a los artículos 50, 51 y 52 de esta ley, y de extinción de contratos conforme al artículo 64 de la Ley 22/2003, de 9 de julio, Concursal, así como las indemnizaciones por extinción de contratos temporales o de duración determinada en los casos que legalmente procedan
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-50	El <e1>Fondo de Garantía Salarial</e1> <rel>prestará a la <e2>institución</e2> de garantía competente la colaboración que le sea requerida</rel> en relación con su intervención en el procedimiento y con el reembolso de las cantidades abonadas a los trabajadores.
+50	El <e1>Fondo de Garantía Salarial</e1> <rel>prestará</rel> a la <e2>institución</e2> de garantía competente la <comp>colaboración</comp> que le sea requerida en relación con su intervención en el procedimiento y con el reembolso de las cantidades abonadas a los trabajadores.
 RelationSignature: LegalEntity-LegalEntity (e1, e2)
 RelationType: Duty (rel)
