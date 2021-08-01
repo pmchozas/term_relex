@@ -213,3 +213,91 @@ RelationType: Duty (rel)
 50	El <e1>Fondo de Garantía Salarial</e1> <rel>prestará</rel> a la <e2>institución</e2> de garantía competente la <comp>colaboración</comp> que le sea requerida en relación con su intervención en el procedimiento y con el reembolso de las cantidades abonadas a los trabajadores.
 RelationSignature: LegalEntity-LegalEntity (e1, e2)
 RelationType: Duty (rel)
+
+51	Los <e1>trabajadores menores de dieciocho años</e1> <rel>no podrán realizar</rel> más de <comp>ocho horas diarias de trabajo efectivo</comp>, incluyendo, en su caso, el tiempo dedicado a la formación y, si trabajasen para varios empleadores, las horas realizadas con cada uno de ellos.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Noright (rel)
+MissingE2: empresa
+
+52	La <e1>persona trabajadora</e1> <rel>tendrá derecho a solicitar</rel> el <comp>regreso a su jornada</comp> o modalidad contractual anterior una vez concluido el periodo acordado o cuando el cambio de las circunstancias así lo justifique, aun cuando no hubiese transcurrido el periodo previsto.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+53	La <e1>persona trabajadora</e1> <rel>tendrá derecho a solicitar</rel> el regreso a su jornada o <comp>modalidad contractual</comp> anterior una vez concluido el periodo acordado o cuando el cambio de las circunstancias así lo justifique, aun cuando no hubiese transcurrido el periodo previsto.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+54	La <e1>empresa</e1> <rel>conservará</rel> los <comp>registros</comp> a que se refiere este precepto durante cuatro años y permanecerán a disposición de las personas trabajadoras, de sus representantes legales y de la Inspección de Trabajo y Seguridad Social.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+MissingE2: trabajadores
+
+55	El <e1>empresario</e1> que recurra regularmente a la realización de trabajo nocturno <rel>deberá informar</rel> de ello a la <e2>autoridad laboral</e2>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+56	El <e1>empresario</e1> <rel>deberá garantizar</rel> que los <e2>trabajadores nocturnos</e2> que ocupe dispongan de una <comp>evaluación gratuita de su estado de salud</comp>, antes de su afectación a un trabajo nocturno y, posteriormente, a intervalos regulares, en los términos establecidos en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en sus normas de desarrollo. 
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+57	Los <e1>trabajadores nocturnos</e1> a los que se reconozcan problemas de salud ligados al hecho de su trabajo nocturno <rel>tendrán derecho a ser destinados</rel> a un <comp>puesto de trabajo diurno</comp> que exista en la <e2>empresa</e2> y para el que sean profesionalmente aptos.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+58	Los <e1>trabajadores</e1> que tengan la consideración de víctimas de violencia de género o de víctimas del terrorismo <rel>tendrán derecho</rel>, para hacer efectiva su protección o su derecho a la asistencia social integral, a la <comp>reducción de la jornada de trabajo</comp> con disminución proporcional del salario o a la reordenación del tiempo de trabajo, a través de la adaptación del horario, de la aplicación del horario flexible o de otras formas de ordenación del tiempo de trabajo que se utilicen en la <e2>empresa</e2>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+59	El <e1>empresario</e1> <rel>deberá comunicar</rel> su <comp>decisión</comp> y las razones de esta a los <e2>representantes de los trabajadores</e2>.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+60	En el caso de encomienda de funciones superiores a las del grupo profesional por un periodo superior a seis meses durante un año u ocho durante dos años, el <e1>trabajador</e1> <rel>podrá reclamar</rel> el <comp>ascenso</comp>, si a ello no obsta lo dispuesto en convenio colectivo o, en todo caso, la cobertura de la vacante correspondiente a las funciones por él realizadas conforme a las reglas en materia de ascensos aplicables en la empresa, sin perjuicio de reclamar la diferencia salarial correspondiente.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+61	Contra la negativa de la empresa, y previo informe del comité o, en su caso, de los delegados de personal, el <e1>trabajador</e1> <rel>podrá reclamar</rel> ante la <e2>jurisdicción social</e2>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+62	La <comp>decisión de traslado</comp> <rel>deberá ser notificada</rel> por el <e1>empresario</e1> al <e2>trabajador</e2>, así como a sus representantes legales, con una antelación mínima de treinta días a la fecha de su efectividad.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+63	Terminado este periodo, los <e1>trabajadores</e1> <rel>podrán optar</rel> entre el <comp>regreso a su puesto</comp> de trabajo anterior o la continuidad en el nuevo.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+64	El <e2>trabajador</e2> <rel>deberá ser informado</rel> del <comp>desplazamiento</comp> con una antelación suficiente a la fecha de su efectividad, que no podrá ser inferior a cinco días laborables en el caso de desplazamientos de duración superior a tres meses; en este último supuesto, el trabajador tendrá derecho a un permiso de cuatro días laborables en su domicilio de origen por cada tres meses de desplazamiento, sin computar como tales los de viaje, cuyos gastos correrán a cargo del empresario.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+MissingE1: empresa
+
+65	La <e1>dirección de la empresa</e1> <rel>podrá acordar</rel> <comp>modificaciones</comp> sustanciales de las condiciones de trabajo cuando existan probadas razones económicas, técnicas, organizativas o de producción.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Right (rel)
+MissingE2: trabajador
+
+66	A estos efectos, la <e1>dirección de la empresa</e1> <rel>deberá comunicar</rel> de manera fehaciente a los <e2>trabajadores</e2> o a sus representantes su intención de iniciar el procedimiento de modificación sustancial de condiciones de trabajo.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+67	Transcurrido el plazo máximo para la constitución de la comisión representativa, la <e1>dirección de la empresa</e1> <rel>podrá comunicar</rel> el <comp>inicio del periodo de consultas</comp> a los <e2>representantes de los trabajadores</e2>.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Privilege (rel)
+
+68	El <e1>empresario</e1> principal, salvo el transcurso del plazo antes señalado respecto a la Seguridad Social, y durante los tres años siguientes a la terminación de su encargo, <rel>responderá</rel> solidariamente de las <comp>obligaciones</comp> referidas a la <e2>Seguridad Social</e2> contraídas por los contratistas y subcontratistas durante el periodo de vigencia de la contrata.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+69	Los <e2>trabajadores</e2> del contratista o subcontratista <rel>deberán ser informados por escrito</rel> por su <e1>empresario</e1> de la identidad de la empresa principal para la cual estén prestando servicios en cada momento.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+70	Asimismo, el <e1>contratista</e1> o subcontratista <rel>deberán informar</rel> de la <comp>identidad de la empresa</comp> principal a la <e2>Tesorería General de la Seguridad Social</e2> en los términos que reglamentariamente se determinen.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
