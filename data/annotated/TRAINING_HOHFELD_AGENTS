@@ -1,4 +1,4 @@
-1	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo<e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, <comp>el contenido de los contratos de trabajo</comp> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
+1	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la <e2>oficina pública de empleo</e2>, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el <comp>contenido de los contratos de trabajo</comp> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
@@ -15,18 +15,17 @@ RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
 5	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <comp>remuneración</comp> consiguiente a un contrato válido.
-RelationSignature: LegalAgent/LegalEntity (e1, e2)
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 MissingE2: empresa
 
-6	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> <e2>de la Administración pública</e2> competente la <comp>expedición del correspondiente certificado de profesionalidad</comp>, título de formación profesional o, en su caso, acreditación parcial acumulable.
+6	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> de la <e2>Administración pública</e2> competente la <comp>expedición del correspondiente certificado de profesionalidad</comp>, título de formación profesional o, en su caso, acreditación parcial acumulable.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 
 7	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la <comp>existencia de puestos de trabajo vacantes</comp>, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
-
 
 8	El <e1>empresario</e1> solo <rel>podrá exigir</rel> la <comp>realización de horas complementarias</comp> cuando así lo hubiera pactado expresamente con el <e2>trabajador</e2>.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
@@ -92,12 +91,12 @@ RelationType: Duty (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-23	Los <e2>trabajadores menores de dieciocho años</e2> <rel>no podrán realizar</rel> <comp>trabajos nocturnos<comp> ni aquellas actividades o puestos de trabajo respecto a los que se establezcan limitaciones a su contratación conforme a lo dispuesto en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en las normas reglamentarias aplicables.
+23	Los <e2>trabajadores menores de dieciocho años</e2> <rel>no podrán realizar</rel> <comp>trabajos nocturnos</comp> ni aquellas actividades o puestos de trabajo respecto a los que se establezcan limitaciones a su contratación conforme a lo dispuesto en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en las normas reglamentarias aplicables.
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Noright (rel)
 MissingE1: empresa
 
-24	<rel>Se prohíbe realizar</rel> <comp>horas extraordinarias</comp> a los <e2>menores de dieciocho años</2>
+24	<rel>Se prohíbe realizar</rel> <comp>horas extraordinarias</comp> a los <e2>menores de dieciocho años</e2>
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Noright (rel)
 MissingE1: empresa
@@ -164,7 +163,7 @@ RelationType: Duty (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-39	Los <e1>empresarios</e1> <rel>habrán de notificar</e1> a la <e2>representación legal de los trabajadores</e2> en las empresas los <comp>contratos</comp> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
+39	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la <e2>representación legal de los trabajadores</e2> en las empresas los <comp>contratos</comp> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
@@ -172,7 +171,7 @@ RelationType: Duty (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-41	El <e1>empresario</e1> <rel>podrá adoptar</rel> las <comp>medidas<comp> que estime más oportunas de vigilancia y control para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
+41	El <e1>empresario</e1> <rel>podrá adoptar</rel> las <comp>medidas</comp> que estime más oportunas de vigilancia y control para verificar el cumplimiento por el <e2>trabajador</e2> de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
@@ -188,7 +187,7 @@ RelationType: Right (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Right (rel)
 
-45	Los <e1>trabajadores</e1> con al menos un año de antigüedad en la empresa <rel>tienen derecho</rel> a un <comp>permiso<comp> retribuido de veinte horas anuales de formación profesional para el empleo, vinculada a la actividad de la <e2>empresa</e2>, acumulables por un periodo de hasta cinco años.
+45	Los <e1>trabajadores</e1> con al menos un año de antigüedad en la empresa <rel>tienen derecho</rel> a un <comp>permiso</comp> retribuido de veinte horas anuales de formación profesional para el empleo, vinculada a la actividad de la <e2>empresa</e2>, acumulables por un periodo de hasta cinco años.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Right (rel)
 
@@ -206,7 +205,7 @@ MissingE2: trabajador
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-49 El <e1>Fondo de Garantía Salarial</e1>, en los casos del apartado anterior, <rel>abonará</rel> <comp>indemnizaciones<comp> reconocidas como consecuencia de sentencia, auto, acto de conciliación judicial o resolución administrativa a favor de los <e2>trabajadores</e2> a causa de despido o extinción de los contratos conforme a los artículos 50, 51 y 52 de esta ley, y de extinción de contratos conforme al artículo 64 de la Ley 22/2003, de 9 de julio, Concursal, así como las indemnizaciones por extinción de contratos temporales o de duración determinada en los casos que legalmente procedan
+49 El <e1>Fondo de Garantía Salarial</e1>, en los casos del apartado anterior, <rel>abonará</rel> <comp>indemnizaciones</comp> reconocidas como consecuencia de sentencia, auto, acto de conciliación judicial o resolución administrativa a favor de los <e2>trabajadores</e2> a causa de despido o extinción de los contratos conforme a los artículos 50, 51 y 52 de esta ley, y de extinción de contratos conforme al artículo 64 de la Ley 22/2003, de 9 de julio, Concursal, así como las indemnizaciones por extinción de contratos temporales o de duración determinada en los casos que legalmente procedan
 RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
@@ -299,5 +298,132 @@ RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
 70	Asimismo, el <e1>contratista</e1> o subcontratista <rel>deberán informar</rel> de la <comp>identidad de la empresa</comp> principal a la <e2>Tesorería General de la Seguridad Social</e2> en los términos que reglamentariamente se determinen.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+71	La <e1>empresa contratista</e1> o subcontratista <rel>deberá informar</rel> igualmente a los <e2>representantes legales</e2> de sus trabajadores, antes del inicio de la ejecución de la contrata, sobre los mismos extremos a que se refieren el apartado 3 anterior y las letras b) a e) del apartado 4.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+72	Los <e1>trabajadores de las empresas contratistas</e1> y subcontratistas, cuando no tengan representación legal, <rel>tendrán derecho a formular</rel> a los <comp>representantes</comp> de los <e2>trabajadores de la empresa principal</e2> cuestiones relativas a las condiciones de ejecución de la actividad laboral, mientras compartan centro de trabajo y carezcan de representación.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+
+73	El <e1>trabajador</e1> con al menos una antigüedad en la empresa de un año <rel>tiene derecho a que se le reconozca</rel> la posibilidad de situarse en <comp>excedencia voluntaria</comp> por un plazo no menor a cuatro meses y no mayor a cinco años.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+74	Los <e1>trabajadores</e1> <rel>tendrán derecho</rel> a un <comp>periodo de excedencia</comp> de duración no superior a tres años para atender al cuidado de cada hijo, tanto cuando lo sea por naturaleza, como por adopción, o en los supuestos de guarda con fines de adopción o acogimiento permanente, a contar desde la fecha de nacimiento o, en su caso, de la resolución judicial o administrativa.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+75	Asimismo <rel>podrán solicitar</rel> su paso a la <comp>situación de excedencia</comp> en la <e2>empresa</e2> los <e1>trabajadores</e1> que ejerzan funciones sindicales de ámbito provincial o superior mientras dure el ejercicio de su cargo representativo.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+76	El <e1>empresario</e1> <rel>podrá suspender</rel> el <comp>contrato de trabajo</comp> por causas económicas, técnicas, organizativas o de producción, con arreglo a lo previsto en este artículo y al procedimiento que se determine reglamentariamente.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+MissingE2: trabajador
+
+77	La <e1>autoridad laboral</e1> <rel>dará traslado</rel> de la <comp>comunicación empresarial</comp> a la <e2>entidad gestora</e2> de las prestaciones por desempleo y recabará informe preceptivo de la Inspección de Trabajo y Seguridad Social sobre los extremos de dicha comunicación y sobre el desarrollo del periodo de consultas.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+78	Tras la finalización del periodo de consultas el <e1>empresario</e1> <rel>notificará</rel> a los <e2>trabajadores</e2> y a la autoridad laboral su <comp>decisión</comp> sobre la suspensión de contratos, que surtirá efectos a partir de la fecha de su comunicación a la autoridad laboral, salvo que en ella se contemple una posterior. 
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+79	Tras la finalización del periodo de consultas el <e1>empresario</e1> <rel>notificará</rel> a los <e2>trabajadores y a la <e2>autoridad laboral</e2> su <comp>decisión</comp> sobre la suspensión de contratos, que surtirá efectos a partir de la fecha de su comunicación a la autoridad laboral, salvo que en ella se contemple una posterior. 
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+80	La <e1>autoridad laboral</e1> <rel>comunicará</rel> la <comp>decisión empresarial</comp> a la <e2>entidad gestora</e2> de la prestación por desempleo.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+81	La <e1>persona trabajadora</e1> <rel>deberá comunicar</rel> a la <e2>empresa</e2>, con una antelación mínima de quince días, el <comp>ejercicio </comp>de este derecho en los términos establecidos, en su caso, en los convenios colectivos.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+82	Cuando los dos <e2>progenitores</e2> que ejerzan este derecho trabajen para la misma empresa, la <e1>dirección empresarial</e1> <rel>podrá limitar</rel> su <comp>ejercicio</comp> simultáneo por razones fundadas y objetivas, debidamente motivadas por escrito.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+83	A la finalización del contrato, excepto en los casos del contrato de interinidad y de los contratos formativos, el <e1>trabajador</e1> <rel>tendrá derecho a recibir</rel> una <comp>indemnización</comp> de cuantía equivalente a la parte proporcional de la cantidad que resultaría de abonar doce días de salario por cada año de servicio, o la establecida, en su caso, en la normativa específica que sea de aplicación.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+84	El <e1>empresario</e1>, con ocasión de la extinción del contrato, al comunicar a los <e2>trabajadores</e2> la denuncia, o, en su caso, el preaviso de la extinción del mismo, <rel>deberá acompañar</rel> una <comp>propuesta</comp> del documento de liquidación de las cantidades adeudadas.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+85	El <e1>trabajador</e1> <rel>podrá solicitar</rel> la <comp>presencia de un representante legal</comp> de los trabajadores en el momento de proceder a la firma del recibo del finiquito, haciéndose constar en el mismo el hecho de su firma en presencia de un representante legal de los trabajadores, o bien que el trabajador no ha hecho uso de esta posibilidad.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+86	A estos efectos, la <e1>dirección de la empresa</e1> <rel>deberá comunicar</rel> de manera fehaciente a los <e2>trabajadores</e2> o a sus representantes su <comp>intención</comp> de iniciar el procedimiento de despido colectivo.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+87	La <comp>comunicación</comp> de la apertura del periodo de consultas <rel>se realizará</rel> mediante escrito dirigido por el <e1>empresario</e1> a los <e2>representantes legales de los trabajadores</e2>, una copia del cual se hará llegar a la autoridad laboral.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+88	Recibida la <comp>comunicación</comp>, la <e1>autoridad laboral</e1> <rel>dará traslado</rel> de la misma a la <e2>entidad gestora</e2> de las prestaciones por desempleo y recabará, con carácter preceptivo, informe de la Inspección de Trabajo y Seguridad Social sobre los extremos de la comunicación a que se refieren los párrafos anteriores y sobre el desarrollo del periodo de consultas.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+89	Transcurrido el periodo de consultas el <e1>empresario</e1> <rel>comunicará</rel> a la <e2>autoridad laboral</e2> el resultado del mismo.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+90	La <e1>empresa</e1> <rel>deberá dar traslado</rel> de dicha <comp>decisión</comp> a los <e2>representantes de los trabajadores</e2> y a la autoridad laboral.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+91	La <e1>empresa</e1> que lleve a cabo un despido colectivo que afecte a más de cincuenta trabajadores <rel>deberá ofrecer</rel> a los <e2>trabajadores</e2> afectados un <comp>plan de recolocación externa</comp> a través de empresas de recolocación autorizadas.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+92	Previamente el <e1>empresario</e1> <rel>deberá ofrecer</rel> al <e2>trabajador</e2> un <comp>curso</comp> dirigido a facilitar la adaptación a las modificaciones operadas.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+93	El tiempo destinado a la formación se considerará en todo caso tiempo de trabajo efectivo y el <e1>empresario</e1> <rel>abonará</rel> al <e2>trabajador</e2> el <comp>salario medio</comp> que viniera percibiendo.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+94	El <comp>despido</comp> <rel>deberá ser notificado</rel> por escrito al <e2>trabajador</e2>, haciendo figurar los hechos que lo motivan y la fecha en que tendrá efectos.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+MissingE1: empresa
+
+95	Al realizarlo, el <e1>empresario</e1> <rel>pondrá a disposición</rel> del <e2>trabajador</e2> los <comp>salarios</comp> devengados en los días intermedios, manteniéndole durante los mismos en alta en la Seguridad Social.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+96	Cuando la sentencia que declare la improcedencia del despido se dicte transcurridos más de noventa días hábiles desde la fecha en que se presentó la demanda, el <e1>empresario</e1> <rel>podrá reclamar</rel> del <e2>Estado</e2> el <comp>abono</comp> de la percepción económica a la que se refiere el apartado 2, correspondiente al tiempo que exceda de dichos noventa días hábiles.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+97	De conformidad con lo dispuesto en el artículo 4 y sin perjuicio de otras formas de participación, los <e1>trabajadores</e1> <rel>tienen derecho a participar</rel> en la <e2>empresa</e2> a través de los órganos de representación regulados en este título.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+98	El <e2>comité de empresa</e2> <rel>tendrá derecho a ser informado</rel> y consultado por el <e1>empresario</e1> sobre aquellas cuestiones que puedan afectar a los trabajadores, así como sobre la situación de la empresa y la evolución del empleo en la misma, en los términos previstos en este artículo.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+99	Asimismo, el <e1>comité de empresa</e1> <rel>tendrá derecho a recibir</rel> la <comp>copia básica</comp> de los contratos así como la notificación de las prórrogas y de las denuncias correspondientes a los mismos en el plazo de diez días siguientes a que tuvieran lugar.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+100	La <comp>información</comp> <rel>se deberá facilitar</rel> por el <e1>empresario</e1> al <e2>comité de empresa</e2>, sin perjuicio de lo establecido específicamente en cada caso, en un momento, de una manera y con un contenido apropiados, que permitan a los representantes de los trabajadores proceder a su examen adecuado y preparar, en su caso, la consulta y el informe
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
