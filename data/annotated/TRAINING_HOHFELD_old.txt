@@ -1,0 +1,433 @@
+1	Las <e1>disposiciones reglamentarias</e1> desarrollarán los preceptos que establecen las normas de rango superior, pero <rel>no podrán establecer</rel> <e2>condiciones de trabajo</e2> distintas a las establecidas por las leyes a desarrollar.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+2	Los conflictos originados entre los preceptos de dos o más <e1>normas laborales</e1>, tanto estatales como pactadas, que <rel>deberán respetar</rel> en todo caso los <e2>mínimos de derecho necesario</e2>, se resolverán mediante la aplicación de lo más favorable para el trabajador apreciado en su conjunto, y en cómputo anual, respecto de los conceptos cuantificables.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+3	Los <e1>trabajadores</e1> <rel>no podrán disponer</rel> válidamente, antes o después de su adquisición, de los <e2>derechos</e2> que tengan reconocidos por disposiciones legales de derecho necesario. 
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+4	<rel>Se prohíbe realizar</rel> <e2>horas extraordinarias</e2> a los <e1>menores de dieciocho años</e1>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+5	Los <e1>trabajadores menores de dieciocho años</e1> <rel>no podrán realizar</rel> <e2>trabajos nocturnos</e2> ni aquellas actividades o puestos de trabajo respecto a los que se establezcan limitaciones a su contratación conforme a lo dispuesto en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en las normas reglamentarias aplicables.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+6	Cualquiera de las <e1>partes</e1> <rel>podrá exigir</rel> que el <e2>contrato se formalice por escrito</e2>, incluso durante el transcurso de la relación laboral.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+7	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la oficina pública de empleo, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el <e2>contenido de los contratos de trabajo</e2> que celebre o las prórrogas de los mismos, deban o no formalizarse por escrito.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+8	El <e1>empresario</e1> <rel>entregará</rel> a la representación legal de los trabajadores una <e2>copia básica</e2> de todos los contratos que deban celebrarse por escrito, a excepción de los contratos de relación laboral especial de alta dirección sobre los que se establece el deber de notificación a la representación legal de los trabajadores.
+RelationSignature: LegalAgent-LegalDocument (e1, e2)
+RelationType: Duty (rel)
+
+9	Con el fin de comprobar la adecuación del contenido del contrato a la legalidad vigente, esta <e1>copia básica</e1> <rel>contendrá</rel> todos los <e2>datos del contrato</e2> a excepción del número del documento nacional de identidad o del número de identidad de extranjero, el domicilio, el estado civil, y cualquier otro que, de acuerdo con la Ley Orgánica 1/1982, de 5 de mayo, de protección civil del derecho al honor, a la intimidad personal y familiar y a la propia imagen, pudiera afectar a la intimidad personal. 
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+10	La <e2>copia básica</e2> <rel>se entregará</rel> por el <e1>empresario</e1>, en plazo no superior a diez días desde la formalización del contrato, a los representantes legales de los trabajadores, quienes la firmarán a efectos de acreditar que se ha producido la entrega.
+RelationSignature: LegalAgent-LegalDocument (e1, e2)
+RelationType: Duty (rel)
+
+11	La <e2>copia básica</e2> se entregará por el empresario, en plazo no superior a diez días desde la formalización del contrato, a los <e1>representantes legales de los trabajadores</e1>, quienes la <rel>firmarán</rel> a efectos de acreditar que se ha producido la entrega.
+RelationSignature: LegalAgent-LegalDocument (e1, e2)
+RelationType: Duty (rel)
+
+12	Los <e1>representantes de la Administración</e1>, así como los de las organizaciones sindicales y de las asociaciones empresariales, que tengan acceso a la copia básica de los contratos en virtud de su pertenencia a los órganos de participación institucional que reglamentariamente tengan tales facultades, <rel>observarán</rel> <e2>sigilo profesional</e2>, no pudiendo utilizar dicha documentación para fines distintos de los que motivaron su conocimiento.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+13	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al <e2>trabajador</e2>, en los términos y plazos que se establezcan reglamentariamente, sobre los elementos esenciales del contrato y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+14	Si el trabajador tuviera asignadas condiciones o retribuciones especiales en virtud de contraprestaciones establecidas en la parte no válida del contrato, el <e1>órgano de la jurisdicción social</e1> que a instancia de parte declare la nulidad <rel>hará</rel> el debido <e2>pronunciamiento</e2> sobre la subsistencia o supresión en todo o en parte de dichas condiciones o retribuciones.
+RelationSignature: LegalEntity-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+15	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <e2>remuneración</e2> consiguiente a un contrato válido.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+16	En caso de nulidad por discriminación salarial por razón de sexo, el <e1>trabajador</e1> <rel>tendrá derecho a</rel> la <e2>retribución</e2> correspondiente al trabajo igual o de igual valor.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+17	Si el <e1>empresario</e1> diera un trabajo en común a un grupo de sus trabajadores, <rel>conservará</rel> respecto de cada uno, individualmente, sus <e2>derechos y deberes</e2>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+18	Si el <e1>empresario</e1> diera un trabajo en común a un grupo de sus trabajadores, <rel>conservará</rel> respecto de cada uno, individualmente, sus derechos y <e2>deberes</e2>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+19	El <e1>jefe del grupo</e1> <rel>ostentará</rel> la <e2>representación</e2> de los que lo integren, respondiendo de las obligaciones inherentes a dicha representación.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+20	El <e1>puesto de trabajo</e1> <rel>deberá permitir</rel> la obtención de la <e2>práctica profesional</e2> adecuada al nivel de estudios o de formación cursados. 
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+21	La <e1>duración del contrato</e1> <rel>no podrá ser</rel> inferior a <e2>seis meses</e2> ni exceder de dos años, dentro de cuyos límites los convenios colectivos de ámbito sectorial estatal o, en su defecto, los convenios colectivos sectoriales de ámbito inferior podrán determinar la duración del contrato, atendiendo a las características del sector y de las prácticas a realizar.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+22	La <e1>duración del contrato</e1> no podrá ser inferior a seis meses <rel>ni exceder</rel> de <e2>dos años</e2>, dentro de cuyos límites los convenios colectivos de ámbito sectorial estatal o, en su defecto, los convenios colectivos sectoriales de ámbito inferior podrán determinar la duración del contrato, atendiendo a las características del sector y de las prácticas a realizar.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+23	La duración del contrato no podrá ser inferior a seis meses ni exceder de dos años, dentro de cuyos límites los convenios colectivos de ámbito sectorial estatal o, en su defecto, los <e1>convenios colectivos sectoriales de ámbito inferior</e1> <rel>podrán determinar</rel> la <e2>duración del contrato</e2>, atendiendo a las características del sector y de las prácticas a realizar.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+24	Salvo lo dispuesto en convenio colectivo, el <e1>periodo de prueba</e1> <rel>no podrá ser</rel> <e2>superior a un mes</e2> para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado medio o de certificado de profesionalidad de nivel 1 o 2, ni a dos meses para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado superior o de certificado de profesionalidad de nivel 3.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+25	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> de la Administración pública competente la <e2>expedición</e2> del correspondiente certificado de profesionalidad, título de formación profesional o, en su caso, acreditación parcial acumulable.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+26	Los <e1>trabajadores</e1> <rel>no podrán realizar</rel> <e2>horas extraordinarias</e2>, salvo en el supuesto previsto en el artículo 35.3.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+27	En la <e1>negociación colectiva</e1> <rel>se fijarán</rel> <e2>criterios</e2> y procedimientos tendentes a conseguir una presencia equilibrada de hombres y mujeres vinculados a la empresa mediante contratos formativos.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+28	El <e1>contrato a tiempo parcial</e1> <rel>podrá concertarse</rel> por <e2>tiempo indefinido</e2> o por duración determinada en los supuestos en los que legalmente se permita la utilización de esta modalidad de contratación, excepto en el contrato para la formación y el aprendizaje.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Right (rel)
+
+29	En las empresas de menos de veinticinco trabajadores el <e1>periodo de prueba</e1> <rel>no podrá exceder</rel> de <e2>tres meses</e2> para los trabajadores que no sean técnicos titulados
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+30	El <e1>contrato a tiempo parcial</e1> <rel>podrá concertarse</rel> por tiempo indefinido o por <e2>duración determinada</e2> en los supuestos en los que legalmente se permita la utilización de esta modalidad de contratación, excepto en el contrato para la formación y el aprendizaje.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Right (rel)
+
+31	En el <e1>contrato</e1> <rel>deberá figurar</rel> el <e2>número de horas ordinarias</e2> de trabajo al día, a la semana, al mes o al año contratadas, así como el modo de su distribución según lo previsto en convenio colectivo.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+32	Los <e1>trabajadores a tiempo parcial</e1> <rel>no podrán realizar</rel> <e2>horas extraordinarias</e2>, salvo en los supuestos a los que se refiere el artículo 35.3.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+33	En todo caso, la <e1>suma de las horas ordinarias y complementarias</e1>, incluidas las previamente pactadas y las voluntarias, <rel>no podrá exceder</rel> del <e2>límite legal</e2> del trabajo a tiempo parcial definido en el apartado 1.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+34	El <e1>empresario</e1> <rel>deberá conservar</rel> los <e2>resúmenes mensuales</e2> de los registros de jornada durante un periodo mínimo de cuatro años.
+RelationSignature: LegalAgent-LegalDocument (e1, e2)
+RelationType: Duty (rel)
+
+35	El <e1>trabajador</e1> <rel>no podrá ser</rel> <e2>despedido</e2> ni sufrir ningún otro tipo de sanción o efecto perjudicial por el hecho de rechazar esta conversión, sin perjuicio de las medidas que, de conformidad con lo dispuesto en los artículos 51 y 52.c), puedan adoptarse por causas económicas, técnicas, organizativas o de producción.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+36	A fin de posibilitar la movilidad voluntaria en el trabajo a tiempo parcial, el <e1>empresario</e1> <rel>deberá informar</rel> a los <e2>trabajadores</e2> de la empresa sobre la existencia de puestos de trabajo vacantes, de manera que aquellos puedan formular solicitudes de conversión voluntaria de un trabajo a tiempo completo en un trabajo a tiempo parcial y viceversa, o para el incremento del tiempo de trabajo de los trabajadores a tiempo parcial, todo ello de conformidad con los procedimientos que se establezcan en convenio colectivo.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+
+37	La <e2>denegación de la solicitud</e2> <rel>deberá ser notificada</rel> por el <e1>empresario</e1> al trabajador por escrito y de manera motivada.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+38	Los <e1>convenios colectivos</e1> <rel>establecerán</rel> <e2>medidas</e2> para facilitar el acceso efectivo de los trabajadores a tiempo parcial a la formación profesional continua, a fin de favorecer su progresión y movilidad profesionales.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+39	El <e1>empresario</e1> solo <rel>podrá exigir la realización</rel> de <e2>horas complementarias</e2> cuando así lo hubiera pactado expresamente con el trabajador.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+40	El <e1>pacto</e1> <rel>se formalizará</rel> necesariamente <e2>por escrito</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+41	El <e1>pacto de horas complementarias</e1> <rel>deberá recoger</rel> el <e2>número de horas complementarias</e2> cuya realización podrá ser requerida por el empresario.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+42	El <e1>número de horas complementarias</e1> pactadas <rel>no podrá exceder</rel> del <e2>treinta por ciento</e2> de las horas ordinarias de trabajo objeto del contrato.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+43	Los <e1>convenios colectivos</e1> <rel>podrán establecer</rel> otro <e2>porcentaje máximo</e2>, que, en ningún caso, podrá ser inferior al citado treinta por ciento ni exceder del sesenta por ciento de las horas ordinarias contratadas.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Privilege (rel)
+
+44	La <e1>realización de horas complementarias</e1> <rel>habrá de respetar</rel>, en todo caso, los <e2>límites</e2> en materia de jornada y descansos establecidos en los artículos 34.3 y 4; 36.1 y 37.1.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+45	Las <e1>horas complementarias</e1> efectivamente realizadas <rel>se retribuirán</rel> como <e2>ordinarias</e2>, computándose a efectos de bases de cotización a la Seguridad Social y periodos de carencia y bases reguladoras de las prestaciones.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+46	Para que el <e1>trabajador</e1> pueda acceder a la jubilación parcial, en los términos establecidos en el texto refundido de la Ley General de la Seguridad Social y demás disposiciones concordantes, <rel>deberá acordar</rel> con su <e2>empresa</e2> una reducción de jornada y de salario de entre un mínimo del veinticinco por ciento y un máximo del cincuenta por ciento y la empresa deberá concertar simultáneamente un contrato de relevo, de acuerdo con lo establecido en el apartado siguiente, con objeto de sustituir la jornada de trabajo dejada vacante por el trabajador que se jubila parcialmente.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+47	En especial, el <e1>trabajador a distancia</e1> <rel>tendrá derecho a percibir</rel>, como mínimo, la <e2>retribución total</e2> establecida conforme a su grupo profesional y funciones.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+48	El <e1>empresario</e1> <rel>deberá establecer</rel> los <e2>medios</e2> necesarios para asegurar el acceso efectivo de estos trabajadores a la formación profesional para el empleo, a fin de favorecer su promoción profesional.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+49	Los <e1>trabajadores a distancia</e1> <rel>podrán ejercer</rel> los <e2>derechos de representación colectiva</e2> conforme a lo previsto en esta ley. 
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+50	En defecto de pacto en convenio, la <e1>duración del periodo de prueba</e1> <rel>no podrá exceder<rel> de <e2>seis meses</e2> para los técnicos titulados, ni de dos meses para los demás trabajadores.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+51	En las empresas de menos de veinticinco trabajadores el <e1>periodo de prueba</e1> <rel>no podrá exceder</rel> de <e2>tres meses</e2> para los trabajadores que no sean técnicos titulados.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+52	En el supuesto de los contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el <e1>periodo de prueba</e1> <rel>no podrá exceder</rel> de <e2>un mes</e2>, salvo que se disponga otra cosa en convenio colectivo.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+53	Los <e1>empresarios</e1> <rel>habrán de notificar</rel> a la representación legal de los trabajadores en las empresas los <e2>contratos</e2> realizados de acuerdo con las modalidades de contratación por tiempo determinado previstas en este artículo cuando no exista obligación legal de entregar copia básica de los mismos.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+54	Atendiendo a las peculiaridades de cada actividad y a las características del puesto de trabajo, la <e1>negociación colectiva</e1> <rel>establecerá</rel> <e2>requisitos</e2> dirigidos a prevenir la utilización abusiva de contratos de duración determinada con distintos trabajadores para desempeñar el mismo puesto de trabajo cubierto anteriormente con contratos de ese carácter, con o sin solución de continuidad, incluidos los contratos de puesta a disposición realizados con empresas de trabajo temporal.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+55	Los <e1>convenios colectivos de ámbito sectorial</e1> <rel>podrán acordar</rel>, cuando las peculiaridades de la actividad del sector así lo justifiquen, la <e2>celebración a tiempo parcial de los contratos fijos-discontinuos</e2>, así como los requisitos y especialidades para la conversión de contratos temporales en contratos fijos-discontinuos.
+RelationSignature: LegalDocument-LegalConcept (e1, e2)
+RelationType: Privilege (rel)
+
+56	Asimismo, el <e1>Gobierno</e1> <rel>podrá otorgar</rel> <e2>subvenciones</e2>, desgravaciones y otras medidas para fomentar el empleo de grupos específicos de trabajadores que encuentren dificultades especiales para acceder al empleo. La regulación de las mismas se hará previa consulta a las organizaciones sindicales y asociaciones empresariales más representativas.
+RelationSignature: LegalEntity-LegalConcept (e1, e2)
+RelationType: Privilege (rel)
+
+57	Asimismo, el <e1>Gobierno</e1> <rel>podrá otorgar</rel> subvenciones, <e2>desgravaciones</e2> y otras medidas para fomentar el empleo de grupos específicos de trabajadores que encuentren dificultades especiales para acceder al empleo. La regulación de las mismas se hará previa consulta a las organizaciones sindicales y asociaciones empresariales más representativas.
+RelationSignature: LegalEntity-LegalConcept (e1, e2)
+RelationType: Privilege (rel)
+
+58	Sin perjuicio de lo dispuesto en los apartados anteriores, la <e1>negociación colectiva</e1> <rel>podrá establecer</rel> <e2>medidas de acción positiva</e2> para favorecer el acceso de las mujeres a todas las profesiones.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+59	El <e1>trabajador</e1>, en la prestación de sus servicios, <rel>tendrá derecho</rel> a una <e2>protección</e2> eficaz en materia de seguridad y salud en el trabajo.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+60	El <e1>empresario</e1> <rel>está obligado a garantizar</rel> que cada trabajador reciba una <e2>formación teórica y práctica</e2>, suficiente y adecuada, en materia preventiva tanto en el momento de su contratación, cualquiera que sea la modalidad o duración de esta, como cuando se produzcan cambios en las funciones que desempeñe o se introduzcan nuevas tecnologías o cambios en los equipos de trabajo.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+61	El <e1>trabajado</e1> <rel>está obligado a seguir</rel> la <e2>formación</e2> y a realizar las prácticas. Todo ello en los términos señalados en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y en sus normas de desarrollo, en cuanto les sean de aplicación.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+62	Si el riesgo de accidente fuera inminente, la <e2>paralización de las actividades</e2> <rel>podrá ser acordada</rel> por los <e1>representantes de los trabajadores</e1>, por mayoría de sus miembros.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+63	El <e1>trabajador</e1> <rel>estará obligado a realizar</rel> el <e2>trabajo convenido</e2> bajo la dirección del empresario o persona en quien este delegue.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+64	El <e1>empresario</e1> <rel>podrá adoptar</rel> las <e2>medidas</e2> que estime más oportunas de vigilancia y control para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales, guardando en su adopción y aplicación la consideración debida a su dignidad y teniendo en cuenta, en su caso, la capacidad real de los trabajadores con discapacidad.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+65	El <e1>empresario</e1> <rel>podrá verificar</rel> el <e2>estado de salud del trabajador</e2> que sea alegado por este para justificar sus faltas de asistencia al trabajo, mediante reconocimiento a cargo de personal médico. 
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+66	La <e1>negativa del trabajador</e1> a dichos reconocimientos <rel>podrá determinar</rel> la <e2>suspensión de los derechos económicos</e2> que pudieran existir a cargo del empresario por dichas situaciones.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+67 	Los <e1>trabajadores</e1> <rel>tienen derecho</rel> a la <e2>intimidad</e2> en el uso de los dispositivos digitales puestos a su disposición por el empleador, a la desconexión digital y a la intimidad frente al uso de dispositivos de videovigilancia y geolocalización en los términos establecidos en la legislación vigente en materia de protección de datos personales y garantía de los derechos digitales.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+68	En el supuesto de compensación económica por la plena dedicación, el <e1>trabajador</e1> <rel>podrá rescindir</rel> el <e2>acuerdo</e2> y recuperar su libertad de trabajo en otro empleo, comunicándolo por escrito al empresario con un preaviso de treinta días, perdiéndose en este caso la compensación económica u otros derechos vinculados a la plena dedicación.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+69	El <e1>acuerdo</e1> <rel>no será</rel> de <e2>duración superior a dos años</e2> y se formalizará siempre por escrito. 
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+70	Si el trabajador abandona el trabajo antes del plazo, el <e1>empresario</e1> <rel>tendrá derecho</rel> a una <e2>indemnización de daños y perjuicios</e2>.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+71	El <e1>empresario</e1> <rel>está obligado a comunicar</rel> a la oficina pública de empleo, en el plazo de los diez días siguientes a su concertación y en los términos que reglamentariamente se determinen, el contenido de los contratos de trabajo que celebre o las <e2>prórrogas</e2> de los mismos, deban o no formalizarse por escrito.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+72	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al trabajador, en los términos y plazos que se establezcan reglamentariamente, sobre los <e2>elementos esenciales del contrato</e2> y las principales condiciones de ejecución de la prestación laboral, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+73	Cuando la relación laboral sea de duración superior a cuatro semanas, el <e1>empresario</e1> <rel>deberá informar por escrito</rel> al trabajador, en los términos y plazos que se establezcan reglamentariamente, sobre los elementos esenciales del contrato y las principales <e2>condiciones de ejecución de la prestación laboral</e2>, siempre que tales elementos y condiciones no figuren en el contrato de trabajo formalizado por escrito.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+74	En caso de que el contrato resultase nulo, el <e1>trabajador</e1> <rel>podrá exigir</rel>, por el trabajo que ya hubiese prestado, la <e2>remuneración</e2> consiguiente a un contrato válido.
+RelationSignature: Legal-Agent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+75	El <e1>jefe del grupo</e1> <rel>ostentará</rel> la <e2>representación</e2> de los que lo integren, respondiendo de las obligaciones inherentes a dicha representación.
+RelationSignature: Legal-Agent-LegalConcept (e1, e2)
+RelationType: Privilege (rel)
+
+76	El <e1>puesto de trabajo</e1> <rel>deberá permitir la obtención</rel> de la <e2>práctica profesional</e2> adecuada al nivel de estudios o de formación cursados.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+77	La <e1>duración del contrato</e1> <rel>no podrá ser inferior</rel> a <e2>seis meses</e2> ni exceder de dos años, dentro de cuyos límites los convenios colectivos de ámbito sectorial estatal o, en su defecto, los convenios colectivos sectoriales de ámbito inferior podrán determinar la duración del contrato, atendiendo a las características del sector y de las prácticas a realizar.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+78	La duración del contrato no podrá ser inferior a seis meses ni exceder de dos años, dentro de cuyos límites los convenios colectivos de ámbito sectorial estatal o, en su defecto, los <e1>convenios colectivos sectoriales de ámbito inferior</e1> <rel>podrán determinar</rel> la <e2>duración del contrato</e2>, atendiendo a las características del sector y de las prácticas a realizar.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+79	Las situaciones de <e1>incapacidad temporal</e1>, nacimiento, adopción, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+80	Las situaciones de incapacidad temporal, <e1>nacimiento</e1>, adopción, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+81	Las situaciones de incapacidad temporal, nacimiento, <e1>adopción</e1>, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+82	Las situaciones de incapacidad temporal, nacimiento, adopción, <e1>guarda con fines de adopción</e1>, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+83	Las situaciones de incapacidad temporal, nacimiento, adopción, guarda con fines de adopción, <e1>acogimiento</e1>, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+84	Las situaciones de incapacidad temporal, nacimiento, adopción, guarda con fines de adopción, acogimiento, <e1>riesgo durante el embarazo</e1>, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+85	Las situaciones de incapacidad temporal, nacimiento, adopción, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, <e1>riesgo durante la lactancia</e1> y violencia de género <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+86	Las situaciones de incapacidad temporal, nacimiento, adopción, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y <e1>violencia de género</e1> <rel>interrumpirán</rel> el cómputo de la <e2>duración del contrato</e2>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+87	Ningún <e1>trabajador</e1> <rel>podrá estar</rel> <e2>contratado en prácticas</e2> en la misma o distinta empresa por tiempo superior a dos años en virtud de la misma titulación o certificado de profesionalidad.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+88	Salvo lo dispuesto en convenio colectivo, el <e1>periodo de prueba</e1> <rel>no podrá ser superior</rel> a un <e2>mes</e2> para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado medio o de certificado de profesionalidad de nivel 1 o 2, ni a dos meses para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado superior o de certificado de profesionalidad de nivel 3.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Noright (rel)
+
+89	La <e1>duración mínima del contrato</e1> <rel>será<rel> de un <e2>año</e2> y la máxima de tres.
+RelationSignature: LegalConcept-Duration (e1, e2)
+RelationType: Duty (rel)
+
+90	El <e1>trabajador</e1> <rel>deberá recibir</rel> la <e2>formación</e2> inherente al contrato para la formación y el aprendizaje directamente en un centro formativo de la red a que se refiere la disposición adicional quinta de la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, previamente reconocido para ello por el Sistema Nacional de Empleo.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+91	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> de la Administración pública competente la expedición del correspondiente <e2>certificado de profesionalidad</e2>, título de formación profesional o, en su caso, acreditación parcial acumulable.
+RelationSignature: LegalAgent-LegalDocument (e1, e2)
+RelationType: Right (rel)
+
+92	Los <e1>trabajadores</e1> <rel>no podrán realizar</rel> <e2>horas extraordinarias</e2>, salvo en el supuesto previsto en el artículo 35.3. Tampoco podrán realizar trabajos nocturnos ni trabajo a turnos.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+93	Los <e1>trabajadores a tiempo parcial</e1> <rel>no podrán realizar</rel> <e2>horas extraordinarias</e2>, salvo en los supuestos a los que se refiere el artículo 35.3.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Noright (rel)
+
+94	El <e1>empresario</e1> <rel>deberá conservar</rel> los <e2>resúmenes mensuales</e2> de los registros de jornada durante un periodo mínimo de cuatro años.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+95	La <e2>denegación de la solicitud</e2> <rel>deberá ser notificada</rel> por el <e1>empresario</e1> al trabajador por escrito y de manera motivada.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+96	El <e1>empresario</e1> solo <rel>podrá exigir</rel> la realización de <e2>horas complementarias</e2> cuando así lo hubiera pactado expresamente con el trabajador.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+97	El <e1>pacto de horas complementarias</e1> <rel>deberá recoger</rel> <e2>el número de horas complementarias</e2> cuya realización podrá ser requerida por el empresario.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Duty (rel)
+
+98	En especial, el <e1>trabajador a distancia</e1> <rel>tendrá derecho a percibir</rel>, como mínimo, la <e2>retribución total</e2> establecida conforme a su grupo profesional y funciones.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+99	Los <e1>trabajadores a distancia</e1> <rel>tienen derecho</rel> a una adecuada <e2>protección</e2> en materia de seguridad y salud resultando de aplicación, en todo caso, lo establecido en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, y su normativa de desarrollo.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+100	Los <e1>trabajadores a distancia</e1> <rel>podrán ejercer los derechos</rel> de <e2>representación colectiva</e2> conforme a lo previsto en esta ley. A estos efectos dichos trabajadores deberán estar adscritos a un centro de trabajo concreto de la empresa.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Right (rel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

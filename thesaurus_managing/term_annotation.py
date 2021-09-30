@@ -11,6 +11,9 @@ from nltk.stem import SnowballStemmer
 
 '''
 filep=open('../data/listTerms_plurales.csv', 'w')
+=======
+filep=open('../data/vocabularies/listTerms_plurales.csv', 'w')
+>>>>>>> Stashed changes
 file_plu = csv.writer(filep)
 new=open('../data/terms_json.csv', 'w')
 file_terms = csv.writer(new)
@@ -195,8 +198,8 @@ def plural_singular_mas(valuelist):
 def labelled_txt(list0, list1, list2, list3):
 	file=open('../data/estatuto_es.txt', 'r', encoding='utf-8')
 	read=file.readlines()
-	new=open('../data/estatuto_es_span.txt', 'w')
-	newc=open('../data/listTerms_conts.csv', 'w')
+	new=open('../data/vocabularies/estatuto_es_span.txt', 'w')
+	newc=open('../data/vocabularies/listTerms_conts.csv', 'w')
 	conts = csv.writer(newc)
 	
 	
@@ -775,13 +778,7 @@ for t in file.readlines():
 
 print(uno)
 
-dos=plural_singular_uno(uno)
-plural_singular_cortos_list=dos[0]
-singular_cortos_list=dos[2]
-plural_cortos_list=dos[3]
-stemmer=dos[1]
-mas=plural_singular_mas(uno)
-singular_largos_list=mas[0]
-plural_largos_list=mas[1]
-labelled_txt(plural_singular_cortos_list, singular_largos_list, plural_largos_list, stemmer)
-#labelled_csv(plural_singular_cortos_list, singular_largos_list, plural_largos_list, stemmer,plural_cortos_list,singular_cortos_list )
+file= '../data/vocabularies/labourlaw_thesaurus.json'
+uno=read_terms(file)
+#print(uno)
+

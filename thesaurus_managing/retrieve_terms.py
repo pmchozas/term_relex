@@ -21,7 +21,7 @@ altlist_en=[]
 
 with this script, we extract a raw list of terms in a given language from thesaurus in skos
 '''
-with open('../data/labourlaw_thesaurus.json') as jsonfile:
+with open('../data/vocabularies/labourlaw_thesaurus.json') as jsonfile:
     data= json.load(jsonfile)
     for alldata in data:
         for topconcept in alldata['@graph']:
@@ -50,7 +50,7 @@ print(altlist_en)
 print(altlist_es)
 
 
-with open('../data/llterms_es.txt', 'w') as f:
+with open('../data/vocabularies/llterms_es.txt', 'w') as f:
     for item in preflist_es:
         f.write("%s\n" % item)
     for syn in altlist_es:
