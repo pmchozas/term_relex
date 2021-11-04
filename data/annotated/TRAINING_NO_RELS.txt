@@ -1,9 +1,9 @@
-1	La relación de servicio de los <e1>funcionarios públicos</e1>, que se regirá por las correspondientes normas legales y reglamentarias, así como la del personal al servicio de las <e2>Administraciones Públicas</e2> y demás entes, organismos y entidades del sector público, cuando, al amparo de una ley, dicha relación se regule por normas administrativas o estatutarias.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+1	Se entenderá igualmente como despido colectivo la extinción de los contratos de trabajo que afecten a la totalidad de la plantilla de la <e1>empresa</e1>, siempre que el número de <e2>trabajadores</e2> afectados sea superior a cinco, cuando aquel se produzca como consecuencia de la cesación total de su actividad empresarial fundada en las mismas causas anteriormente señaladas.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-2	Salvo lo establecido en los dos párrafos siguientes, la duración del contrato de relevo que se celebre como consecuencia de una jubilación parcial tendrá que ser indefinida o, como mínimo, igual al tiempo que falte al <e1>trabajador</e1> sustituido para alcanzar la edad de jubilación ordinaria que corresponda conforme a lo establecido en el texto refundido de la Ley General de la <e2>Seguridad Social</e2>.
-RelationSignature: LegalEntity-LegalEntity (e1, e2)
+2	Se entiende que concurren causas técnicas cuando se produzcan cambios, entre otros, en el ámbito de los medios o instrumentos de producción; causas organizativas cuando se produzcan cambios, entre otros, en el ámbito de los sistemas y métodos de trabajo del <e1>personal</e1> o en el modo de organizar la producción y causas productivas cuando se produzcan cambios, entre otros, en la demanda de los productos o servicios que la <e2>empresa</e2> pretende colocar en el mercado.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Norelation (rel)
 
 3	Esta ley será de aplicación a los <e1>trabajadores</e1> que voluntariamente presten sus servicios retribuidos por cuenta ajena y dentro del ámbito de organización y dirección de otra persona, física o jurídica, denominada empleador o <e2>empresario</e2>.
@@ -22,27 +22,27 @@ RelationType: Norelation (rel)
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Norelation (rel)
 
-7	Si, al cumplir dicha edad, el <e1>trabajador jubilado</e1> parcialmente continuase en la <e2>empresa</e2>, el contrato de relevo que se hubiera celebrado por duración determinada podrá prorrogarse mediante acuerdo con las partes por periodos anuales, extinguiéndose en todo caso al finalizar el periodo correspondiente al año en el que se produzca la jubilación total del trabajador relevado.
-RelationSignature: LegalAgent-LegalAgent (e1, e2)
+7	Esta ley se dicta de acuerdo con lo establecido en el artículo 149.1.7.ª de la Constitución Española, que atribuye al <e1>Estado</e1> la competencia exclusiva en materia de legislación laboral sin perjuicio de su ejecución por los <e2>órganos de las comunidades autónomas</e2>.
+RelationSignature: LegalEntity-LegalEntity (e1, e2)
 RelationType: Norelation (rel)
 
-8	El horario de trabajo del <e1>trabajador relevista</e1> podrá completar el del <e2>trabajador sustituido</e2> o simultanearse con él.
-RelationSignature: LegalAgent-LegalAgent (e1, e2)
+8	Se entiende que concurren causas económicas cuando de los resultados de la <e1>empresa</e1> se desprenda una situación económica negativa, en casos tales como la existencia de pérdidas actuales o previstas, o la disminución persistente de su nivel de ingresos ordinarios o ventas.
+RelationSignature: LegalEntity (e1)
 RelationType: Norelation (rel)
 
-9	El puesto de trabajo del <e1>trabajador relevista</e1> podrá ser el mismo del <e2>trabajador sustituido</e2>.
-RelationSignature: LegalAgent-LegalAgent (e1, e2)
+9	En todo caso, se entenderá que la disminución es persistente si durante tres trimestres consecutivos el nivel de ingresos ordinarios o ventas de cada trimestre es inferior al registrado en el mismo trimestre del año anterior.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-10	Los <e1>representantes de la Administración</e1>, así como los de las <e2>organizaciones sindicales</e2> y de las asociaciones empresariales, que tengan acceso a la copia básica de los contratos en virtud de su pertenencia a los órganos de participación institucional que reglamentariamente tengan tales facultades, observarán sigilo profesional, no pudiendo utilizar dicha documentación para fines distintos de los que motivaron su conocimiento.
+10	A efectos de lo dispuesto en esta ley se entenderá por despido colectivo la extinción de contratos de trabajo fundada en causas económicas, técnicas, organizativas o de producción cuando, en un periodo de noventa días, la extinción afecte al menos a.
+RelationSignature: NoEntities
+RelationType: Norelation (rel)
+
+11	El diez por ciento del número de <e1>trabajadores</e1> de la <e2>empresa</e2> en aquellas que ocupen entre cien y trescientos trabajadores.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Norelation (rel)
 
-11	Los <e1>trabajadores a distancia</e1> tendrán los mismos derechos que los que prestan sus servicios en el <e2>centro de trabajo de la empresa</e2>, salvo aquellos que sean inherentes a la realización de la prestación laboral en el mismo de manera presencial.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
-RelationType: Norelation (rel)
-
-12	El <e1>empresario</e1> y el <e2>trabajador</e2> están, respectivamente, obligados a realizar las experiencias que constituyan el objeto de la prueba.
+12	Cualquier otro incumplimiento grave de sus obligaciones por parte del <e1>empresario</e1>, salvo los supuestos de fuerza mayor, así como la negativa del mismo a reintegrar al <e2>trabajador</e2> en sus anteriores condiciones de trabajo en los supuestos previstos en los artículos 40 y 41, cuando una sentencia judicial haya declarado los mismos injustificados.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
@@ -54,12 +54,12 @@ RelationType: Norelation (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-15	Si, al cumplir dicha edad, el <e1>trabajador jubilado</e1> parcialmente continuase en la <e2>empresa</e2>, el contrato de relevo que se hubiera celebrado por duración determinada podrá prorrogarse mediante acuerdo con las partes por periodos anuales, extinguiéndose en todo caso al finalizar el periodo correspondiente al año en el que se produzca la jubilación total del trabajador relevado.
-RelationSignature: LegalAgent-LegalAgent (e1, e2)
+15	Expirada dicha duración máxima o realizada la obra o servicio objeto del contrato, si no hubiera denuncia y se continuara en la prestación laboral, el contrato se considerará prorrogado tácitamente por tiempo indefinido, salvo prueba en contrario que acredite la naturaleza temporal de la prestación.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-16	Los <e1>trabajadores a distancia</e1> tendrán los mismos derechos que los que prestan sus servicios en el centro de trabajo de la <e2>empresa</e2>, salvo aquellos que sean inherentes a la realización de la prestación laboral en el mismo de manera presencial.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+16	Para la aplicación de lo dispuesto en el párrafo anterior, se considerará <e1>trabajador nocturno</e1> a aquel que realice normalmente en periodo nocturno una parte no inferior a tres horas de su jornada diaria de trabajo, así como a aquel que se prevea que puede realizar en tal periodo una parte no inferior a un tercio de su jornada de trabajo anual.
+RelationSignature: LegalAgent (e1)
 RelationType: Norelation (rel)
 
 17	Será nulo el pacto que establezca un periodo de prueba cuando el <e1>trabajador</e1> haya ya desempeñado las mismas funciones con anterioridad en la <e2>empresa</e2>, bajo cualquier modalidad de contratación.
@@ -70,50 +70,50 @@ RelationType: Norelation (rel)
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Norelation (rel)
 
-19	 Transcurrido el periodo de prueba sin que se haya producido el desistimiento, el contrato producirá plenos efectos, computándose el tiempo de los servicios prestados en la antigüedad de la <e1>persona trabajadora</e1> en la <e2>empresa</e2>.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+19	 A los efectos de lo dispuesto en esta ley, se considera trabajo nocturno el realizado entre las diez de la noche y las seis de la mañana.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-20	El acuerdo será comunicado de inmediato a la <e1>empresa</e1> y a la <e2>autoridad laboral</e2>, la cual, en veinticuatro horas, anulará o ratificará la paralización acordada.
-RelationSignature: LegalEntity-LegalEntity (e1, e2)
+20	A los efectos de este artículo se entiende que existe insolvencia del <e1>empresario</e1> cuando, instada la ejecución en la forma establecida por la Ley 36/2011, de 10 de octubre, Reguladora de la Jurisdicción Social, no se consiga satisfacción de los créditos laborales.
+RelationSignature: LegalAgent (e1)
 RelationType: Norelation (rel)
 
-21	Los <e1>trabajadores</e1> con al menos un año de antigüedad en la <e2>empresa</e2> tienen derecho a un permiso retribuido de veinte horas anuales de formación profesional para el empleo, vinculada a la actividad de la empresa, acumulables por un periodo de hasta cinco años.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+21	Representantes de quienes presten servicios en trabajos fijos-discontinuos y de <e1>trabajadores no fijos</e1>.
+RelationSignature: LegalAgent (e1)
 RelationType: Norelation (rel)
 
-22	Transcurridos estos plazos, los <e1>trabajadores</e1> adquirirán la condición de <e2>trabajadores fijos</e2> de la empresa.
+22	Mediante los convenios colectivos, y en su ámbito correspondiente, los <e1>trabajadores</e1> y <e2>empresarios</e2> regulan las condiciones de trabajo y de productividad.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-23	En defecto de lo previsto en convenio colectivo, la concreción del modo de disfrute del permiso se fijará de mutuo acuerdo entre <e1>trabajador</e1> y <e2>empresario</e2>.
+23	Los convenios colectivos, como resultado de la negociación desarrollada por los <e1>representantes de los trabajadores</e1> y de los <e2>empresarios</e2>, constituyen la expresión del acuerdo libremente adoptado por ellos en virtud de su autonomía colectiva.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-24	Los ascensos dentro del sistema de clasificación profesional se producirán conforme a lo que se establezca en convenio o, en su defecto, en acuerdo colectivo entre la <e1>empresa</e1> y los <e2>representantes de los trabajadores</e2>.
+24	Mediante los convenios colectivos, y en su ámbito correspondiente, los <e1>trabajadores</e1> y <e2>empresarios</e2> regulan las condiciones de trabajo y de productividad.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-25	Por convenio colectivo se podrán determinar las actividades en las que puedan contratarse <e1>trabajadores eventuales</e1>, así como fijar criterios generales relativos a la adecuada relación entre el volumen de esta modalidad contractual y la plantilla total de la <e2>empresa</e2>.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+25	La cuantía del salario base y de los complementos salariales, incluidos los vinculados a la situación y resultados de la empresa.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-26	Adquirirán la condición de <e1>trabajadores fijos</e1>, cualquiera que haya sido la modalidad de su contratación, los que no hubieran sido dados de alta en la <e2>Seguridad Social</e2>, una vez transcurrido un plazo igual al que legalmente se hubiera podido fijar para el periodo de prueba, salvo que de la propia naturaleza de las actividades o de los servicios contratados se deduzca claramente la duración temporal de los mismos, todo ello sin perjuicio de las demás responsabilidades a que hubiere lugar en derecho.
-RelationSignature: LegalAgent-LegalEntity (e1, e2)
+26	El abono o la compensación de las horas extraordinarias y la retribución específica del trabajo a turnos.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-27	En todo caso, el trabajador podrá solicitar, por escrito, al <e1>Servicio Público de Empleo</e1> correspondiente un certificado de los contratos de duración determinada o temporales celebrados, a los efectos de poder acreditar su condición de trabajador fijo en la <e2>empresa</e2>.
-RelationSignature: LegalEntity-LegalEntity (e1, e2)
+27	Cláusulas de los convenios colectivos referidas al cumplimiento de la edad ordinaria de jubilación.
+RelationSignature: NoEntities
 RelationType: Norelation (rel)
 
-28	Igualmente, el <e1>Gobierno</e1> podrá establecer limitaciones y garantías adicionales a las previstas en el presente artículo para la realización de trabajo nocturno en ciertas actividades o por determinada categoría de <e2>trabajadores</e2>, en función de los riesgos que comporten para su salud y seguridad.
-RelationSignature: LegalEntity-LegalAgent (e1, e2)
+28	Aplicación de los límites de duración del contrato por obra o servicio determinados y al encadenamiento de contratos en las <e1>Administraciones Públicas</e1>.
+RelationSignature: LegalEntity (e1)
 RelationType: Norelation (rel)
 
 29	Los <e1>trabajadores fijos-discontinuos</e1> serán llamados en el orden y la forma que se determine en los respectivos convenios colectivos, pudiendo el <e2>trabajador</e2>, en caso de incumplimiento, reclamar en procedimiento de despido ante la jurisdicción social, iniciándose el plazo para ello desde el momento en que tuviese conocimiento de la falta de convocatoria.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Norelation (rel)
 
-30	La <e1>persona trabajadora</e1>, salvo fuerza mayor, deberá preavisar al <e2>empresario</e2> con una antelación de quince días o la que se determine en el convenio colectivo aplicable, precisando la fecha en que iniciará y finalizará el permiso de cuidado del lactante o la reducción de jornada.
-RelationSignature: LegalAgent-LegalAgent (e1, e2)
+30	Aplicación del despido por causas económicas, técnicas, organizativas o de producción en el sector público.
+RelationSignature: NoEntities)
 RelationType: Norelation (rel)
