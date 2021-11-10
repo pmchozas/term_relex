@@ -1,0 +1,272 @@
+{
+  "seq_pred": "Noright",
+  "subject": [["autoridades"]],
+  "object": [
+    [
+      "menores de diecis\u00e9is a\u00f1os"
+    ]
+  ],
+  "relation": [
+    [
+      "Se proh\u00edbe la admisi\u00f3n al trabajo"
+    ]
+  ],
+  "complement": [],
+  "doctext": "Se proh\u00edbe la admisi\u00f3n al trabajo a los menores de diecis\u00e9is a\u00f1os .",
+  "doc_id": 117
+},
+{
+  "seq_pred": "None",
+  "subject": [],
+  "object": [],
+  "relation": [],
+  "complement": [],
+  "doctext": "La impar ##tici\u00f3n de esta formaci\u00f3n deber\u00e1 justificar ##se a la finalizaci\u00f3n del contrato .",
+  "doc_id": 198
+},
+{
+  "seq_pred": "Right",
+  "subject": [
+    [
+      "trabajador"
+    ]
+  ],
+  "object": [
+    [
+      "Administraci\u00f3n p\u00fablica"
+    ]
+  ],
+  "relation": [["podr\u00e1 solicitar"]],
+  "complement": [["expedici\u00f3n del correspondiente certificado de profesional ##idad , t\u00edtulo de formaci\u00f3n profesional o , en su caso , acreditaci\u00f3n parcial acumula ##ble"]],
+  "doctext": "Conforme a lo establecido en dicha regulaci\u00f3n , el trabajador podr\u00e1 solicitar de la Administraci\u00f3n p\u00fablica competente la expedici\u00f3n del correspondiente certificado de profesional ##idad , t\u00edtulo de formaci\u00f3n profesional o , en su caso , acreditaci\u00f3n parcial acumula ##ble .",
+  "doc_id": 203
+},
+{
+  "seq_pred": "None",
+  "subject": [],
+  "object": [],
+  "relation": [],
+  "complement": [],
+  "doctext": "f ) El tiempo de trabajo efectivo , que habr\u00e1 de ser compatible con el tiempo dedicado a las actividades formativas , no podr\u00e1 ser superior al setenta y cinco por ciento , durante el primer a\u00f1o , o al ochenta y cinco por ciento , durante el segundo y tercer a\u00f1o , de la jornada m\u00e1xima prevista en el convenio colectivo o , en su defecto , a la jornada m\u00e1xima legal .",
+  "doc_id": 204
+},
+{
+  "seq_pred": "Duty",
+  "subject": [
+    [
+      "empresario"
+    ]
+  ],
+  "object": [
+    [
+      "trabajador"
+    ]
+  ],
+  "relation": [["estar\u00e1 obligado a celebrar"]],
+  "complement": [["nuevo contrato en los mismos t\u00e9rminos del extingui ##do"]],
+  "doctext": "En el supuesto de que el contrato se extin ##ga antes de alcanzar la duraci\u00f3n m\u00ednima indicada , el empresario estar\u00e1 obligado a celebrar un nuevo contrato en los mismos t\u00e9rminos del extingui ##do , por el tiempo restante .",
+  "doc_id": 275
+},
+{
+  "seq_pred": "None",
+  "subject": [],
+  "object": [],
+  "relation": [],
+  "complement": [],
+  "doctext": "Art\u00edculo 28 .",
+  "doc_id": 500
+},
+{
+  "seq_pred": "None",
+  "subject": [],
+  "object": [],
+  "relation": [],
+  "complement": [],
+  "doctext": "Igualdad de remuneraci\u00f3n por raz\u00f3n de sexo .",
+  "doc_id": 501
+},
+{
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "trabajador"
+      ]
+    ],
+    "object": [],
+    "relation": [["tendr\u00e1 derecho"]],
+    "complement": [],
+    "doctext": "En tales casos , el trabajador tendr\u00e1 derecho a las indemnizaciones se\u00f1aladas para el despido impro ##cede ##n ##te .",
+    "doc_id": 1086
+},
+{
+    "seq_pred": "Duty",
+    "subject": [
+      [
+        "direcci\u00f3n de la empresa"
+      ]
+    ],
+    "object": [
+      [
+        "trabajadores"
+      ]
+    ],
+    "relation": [["deber\u00e1 comunicar"]],
+    "complement": [["intenci\u00f3n de iniciar el procedimiento de despido colectivo"]],
+    "doctext": "A estos efectos , la direcci\u00f3n de la empresa deber\u00e1 comunicar de manera fe ##ha ##ciente a los trabajadores o a sus representantes su intenci\u00f3n de iniciar el procedimiento de despido colectivo .",
+    "doc_id": 1106
+},
+  {
+    "seq_pred": "None",
+    "subject": [],
+    "object": [],
+    "relation": [],
+    "complement": [],
+    "doctext": "f ) La embri ##agu ##ez habitual o toxic ##oman ##\u00eda si repercu ##ten negativamente en el trabajo .",
+    "doc_id": 1211
+  },
+  {
+    "seq_pred": "None",
+    "subject": [["empresario"]],
+    "object": [["personas que trabajan en la empresa"]],
+    "relation": [],
+    "complement": [],
+    "doctext": "g ) El acoso por raz\u00f3n de origen racial o \u00e9tnico , religi\u00f3n o convicciones , discapacidad , edad u orientaci\u00f3n sexual y el acoso sexual o por raz\u00f3n de sexo al empresario o a las personas que trabajan en la empresa .",
+    "doc_id": 1212
+  },
+  {
+    "seq_pred": "Duty",
+    "subject": [
+      [
+        "empresa"
+      ]
+    ],
+    "object": [
+      [
+        "trabajador"
+      ]
+    ],
+    "relation": [
+      [
+        "deber\u00e1 ser notificado"
+      ]
+    ],
+    "complement": [["despido"]],
+    "doctext": "El despido deber\u00e1 ser notificado por escrito al trabajador , haciendo figurar los hechos que lo motiv ##an y la fecha en que tendr\u00e1 efectos .",
+    "doc_id": 1216
+  },
+  {
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "empresario"
+      ]
+    ],
+    "object": [["Estado"]],
+    "relation": [["podr\u00e1 reclamar"]],
+    "complement": [["abono de la percepci\u00f3n econ\u00f3mica"]],
+    "doctext": "En el supuesto de no optar el empresario por la rea ##d ##misi\u00f3n o la indemnizaci\u00f3n , se entiende que procede la primera .",
+    "doc_id": 1248
+  },
+  {
+    "seq_pred": "Privilege",
+    "subject": [
+      [
+        "Gobierno"
+      ]
+    ],
+    "object": [
+      [
+        "empresas"
+      ]
+    ],
+    "relation": [["dictar ##\u00e1"]],
+    "complement": [["normas necesarias para la aplicaci\u00f3n del t\u00edtulo II"]],
+    "doctext": "El Gobierno , previas las consultas que considere oportunas a las asociaciones empresariales y organizaciones sindicales , dictar ##\u00e1 las normas necesarias para la aplicaci\u00f3n del t\u00edtulo II en aquellas empresas pertenecientes a sectores de actividad en las que sea relevante el n\u00famero de trabajadores no fijos o el de trabajadores menores de dieciocho a\u00f1os , as\u00ed como a los colectivos en los que , por la naturaleza de sus actividades , se ocasion ##e una movilidad permanente , una acusada dispersi\u00f3n o unos desplazamientos de localidad , ligado ##s al ejercicio normal de sus actividades , y en los que concur ##ran otras circunstancias que hagan aconse ##ja ##ble su inclusi\u00f3n en el \u00e1mbito de aplicaci\u00f3n del t\u00edtulo II citado .",
+    "doc_id": 1997
+  },
+  {
+    "seq_pred": "Duty",
+    "subject": [],
+    "object": [
+      [
+        "deber\u00e1 formalizar"
+      ]
+    ],
+    "relation": [
+      [
+        "deber\u00e1"
+      ]
+    ],
+    "complement": [],
+    "doctext": "Este contrato se deber\u00e1 formal ##izar necesariamente por escrito en el modelo que se establezca y en \u00e9l deber\u00e1 figurar una indicaci\u00f3n sobre la duraci\u00f3n estimada de la actividad , as\u00ed como sobre la forma y orden de llamamiento que establezca el convenio colectivo aplicable , haciendo constar igualmente , de manera orienta ##tiva , la jornada laboral estimada y su distribuci\u00f3n hora ##ria .",
+    "doc_id": 363
+  },  
+  {
+    "seq_pred": "Duty",
+    "subject": [["empresa"]],
+    "object": [
+      [
+        "trabajador"
+      ]
+    ],
+    "relation": [
+      [
+        "deber\u00e1 formal ##izar necesariamente por escrito"
+      ]
+    ],
+    "complement": [["contrato"]],
+    "doctext": "Este contrato se deber\u00e1 formal ##izar necesariamente por escrito en el modelo que se establezca y en \u00e9l deber\u00e1 figurar una indicaci\u00f3n sobre la duraci\u00f3n estimada de la actividad , as\u00ed como sobre la forma y orden de llamamiento que establezca el convenio colectivo aplicable , haciendo constar igualmente , de manera orienta ##tiva , la jornada laboral estimada y su distribuci\u00f3n hora ##ria .",
+    "doc_id": 363
+  },
+  {
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "progenitor"
+      ]
+    ],
+    "object": [],
+    "relation": [["contar\u00e1"]],
+    "complement": [],
+    "doctext": "d ) A partir de 1 de enero de 2020 , en el caso de nacimiento , el otro progen ##itor contar\u00e1 con un periodo de suspensi\u00f3n total de doce semanas , de las cuales las cuatro primeras deber\u00e1 disfrutar ##las de forma ininterrump ##ida inmediatamente tras el parto .",
+    "doc_id": 1976
+  },
+  {
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "progenitores"
+      ]
+    ],
+    "object": [],
+    "relation": [["podr\u00e1n disponer"]],
+    "complement": [["total de doce semanas de disfrute voluntario"]],
+    "doctext": "J ##unto a las seis semanas de disfrute obligatorio , los progen ##itores [UNK] as podr\u00e1n disponer de un total de doce semanas de disfrute voluntario que deber\u00e1n disfrutar de forma ininterrump ##ida dentro de los doce meses siguientes a la resoluci\u00f3n judicial por la que se constitu ##ya la adopci\u00f3n o bien a la decisi\u00f3n administrativa de guarda con fines de adopci\u00f3n o de aco ##gimiento , de conformidad con lo previsto en el art\u00edculo 48 . 5 .",
+    "doc_id": 1973
+  },
+  {
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "madre biol\u00f3gica"
+      ]
+    ],
+    "object": [],
+    "relation": [["disfrutar ##\u00e1"]],
+    "complement": [["periodos de suspensi\u00f3n"]],
+    "doctext": "Los apartados 4 , 5 , y 6 del art\u00edculo 48 , en la redacci\u00f3n dada por el Real Decreto - ley 6 [UNK] 2019 , de 1 de marzo , de medidas urgentes para garant\u00eda de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupaci\u00f3n , ser\u00e1n de aplicaci\u00f3n gradual conforme a las siguientes reglas : a ) En el caso de nacimiento , la madre biol\u00f3gica disfrutar ##\u00e1 completamente de los periodos de suspensi\u00f3n regulados en el Real Decreto - ley 6 [UNK] 2019 , de 1 de marzo , desde su entrada en vigor .",
+    "doc_id": 1968
+  },  
+  {
+    "seq_pred": "Right",
+    "subject": [
+      [
+        "empresas"
+      ]
+    ],
+    "object": [],
+    "relation": [["tendr\u00e1n derecho"]],
+    "complement": [["reducci\u00f3n del cincuenta por ciento en las cuotas empresariales de la Seguridad Social"]],
+    "doctext": "Las empresas que celebre ##n contratos para la formaci\u00f3n y el aprendizaje con trabajadores con discapacidad tendr\u00e1n derecho a una reducci\u00f3n del cincuenta por ciento en las cuotas empresariales de la Seguridad Social previstas para los contratos para la formaci\u00f3n y el aprendizaje .",
+    "doc_id": 1886
+  }
