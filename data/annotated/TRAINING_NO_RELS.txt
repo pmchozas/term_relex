@@ -117,3 +117,28 @@ RelationType: Norelation (rel)
 30	Aplicación del despido por causas económicas, técnicas, organizativas o de producción en el sector público.
 RelationSignature: NoEntities)
 RelationType: Norelation (rel)
+
+31	La impartición de esta formación deberá justificarse a la finalización del contrato.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+
+32	El tiempo de trabajo efectivo, que habrá de ser compatible con el tiempo dedicado a las actividades formativas, no podrá ser superior al setenta y cinco por ciento, durante el primer año, o al ochenta y cinco por ciento, durante el segundo y tercer año, de la jornada máxima prevista en el convenio colectivo o, en su defecto, a la jornada máxima legal.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+
+33	Artículo 16.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+
+34	Igualdad de remuneración por razón de sexo.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+
+35	La embriaguez habitual o toxicomanía si repercuten negativamente en el trabajo.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+
+36	El acoso por razón de origen racial o étnico, religión o convicciones, discapacidad, edad u orientación sexual y el acoso sexual o por razón de sexo al empresario o a las personas que trabajan en la empresa.
+RelationSignature: NoEntities)
+RelationType: Norelation (rel)
+

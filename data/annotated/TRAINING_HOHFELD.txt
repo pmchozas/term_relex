@@ -40,7 +40,7 @@ RelationSignature: LegalEntity-LegalEntity (e1, e2)
 RelationType: Privilege (rel)
 MissingE2: empresa
 
-11	El <e1>empresario</e1> <rel>está obligado a garantizar</rel> que cada <e2>trabajador</e2> reciba</rel> una <comp>formación teórica y práctica</comp>, suficiente y adecuada, en materia preventiva tanto en el momento de su contratación, cualquiera que sea la modalidad o duración de esta, como cuando se produzcan cambios en las funciones que desempeñe o se introduzcan nuevas tecnologías o cambios en los equipos de trabajo.
+11	El <e1>empresario</e1> <rel>está obligado a garantizar</rel> que cada <e2>trabajador</e2> reciba una <comp>formación teórica y práctica</comp>, suficiente y adecuada, en materia preventiva tanto en el momento de su contratación, cualquiera que sea la modalidad o duración de esta, como cuando se produzcan cambios en las funciones que desempeñe o se introduzcan nuevas tecnologías o cambios en los equipos de trabajo.
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
@@ -338,7 +338,7 @@ RelationType: Duty (rel)
 RelationSignature: LegalAgent-LegalAgent (e1, e2)
 RelationType: Duty (rel)
 
-79	Tras la finalización del periodo de consultas el <e1>empresario</e1> <rel>notificará</rel> a los <e2>trabajadores y a la <e2>autoridad laboral</e2> su <comp>decisión</comp> sobre la suspensión de contratos, que surtirá efectos a partir de la fecha de su comunicación a la autoridad laboral, salvo que en ella se contemple una posterior. 
+79	Tras la finalización del periodo de consultas el <e1>empresario</e1> <rel>notificará</rel> a los <e2>trabajadores</e2> y a la <e2>autoridad laboral</e2> su <comp>decisión</comp> sobre la suspensión de contratos, que surtirá efectos a partir de la fecha de su comunicación a la autoridad laboral, salvo que en ella se contemple una posterior.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
 
@@ -427,5 +427,49 @@ RelationType: Right (rel)
 MissingE2: empresa
 
 100	La <comp>información</comp> <rel>se deberá facilitar</rel> por el <e1>empresario</e1> al <e2>comité de empresa</e2>, sin perjuicio de lo establecido específicamente en cada caso, en un momento, de una manera y con un contenido apropiados, que permitan a los representantes de los trabajadores proceder a su examen adecuado y preparar, en su caso, la consulta y el informe
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+101	<rel>Se prohíbe la admisión al trabajo</rel> a los <e2>menores de dieciséis años</e2>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Noright (rel)
+
+102	Conforme a lo establecido en dicha regulación, el <e1>trabajador</e1> <rel>podrá solicitar</rel> de la <e2>Administración pública</e2> competente la <comp>expedición del correspondiente certificado de profesionalidad</comp>, <comp>título de formación profesional</comp> o, en su caso, <comp>acreditación parcial acumulable</comp>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+103	En el supuesto de que el contrato se extinga antes de alcanzar la duración mínima indicada, el <e1>empresario</e1> <rel>estará obligado a celebrar</rel> <comp>un nuevo contrato en los mismos términos del extinguido</comp>, por el tiempo restante.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+104	En tales casos, el <e1>trabajador</e1> <rel>tendrá derecho</rel> a las <comp>indemnizaciones señaladas para el despido improcedente</comp>.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+105	El <comp>despido</comp> <rel>deberá ser notificado por escrito</rel> al <e2>trabajador</e2>, haciendo figurar los hechos que lo motivan y la fecha en que tendrá efectos.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Duty (rel)
+
+106	Cuando la sentencia que declare la improcedencia del despido se dicte transcurridos más de noventa días hábiles desde la fecha en que se presentó la demanda, el <e1>empresario</e1> <rel>podrá reclamar</rel> del <e2>Estado</e2> el <comp>abono de la percepción económica</comp> a la que se refiere el apartado 2, correspondiente al tiempo que exceda de dichos noventa días hábiles.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+107	El <e1>Gobierno</e1>, previas las consultas que considere oportunas a las asociaciones empresariales y organizaciones sindicales, <rel>dictará</rel> las <comp>normas necesarias para la aplicación del título II</comp> en aquellas <e2>empresas</e2> pertenecientes a sectores de actividad en las que sea relevante el número de trabajadores no fijos o el de trabajadores menores de dieciocho años, así como a los colectivos en los que, por la naturaleza de sus actividades, se ocasione una movilidad permanente, una acusada dispersión o unos desplazamientos de localidad, ligados al ejercicio normal de sus actividades, y en los que concurran otras circunstancias que hagan aconsejable su inclusión en el ámbito de aplicación del título II citado.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Privileg (rel)
+
+108	Junto a las seis semanas de disfrute obligatorio, los <e1>progenitores/as</e1> <rel>podrán disponer</rel> de un total de <comp>doce semanas de disfrute voluntario</comp> que deberán disfrutar de forma ininterrumpida dentro de los doce meses siguientes a la resolución judicial por la que se constituya la adopción o bien a la decisión administrativa de guarda con fines de adopción o de acogimiento, de conformidad con lo previsto en el artículo 48.5.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+109	Las <e1>empresas</e1> que celebren contratos para la formación y el aprendizaje con trabajadores con discapacidad <rel>tendrán derecho</rel> a una <comp>reducción del cincuenta por ciento en las cuotas empresariales de la Seguridad Social</comp> previstas para los contratos para la formación y el aprendizaje.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+110	En el caso de nacimiento, la <e1>madre biológica</e1> <rel>disfrutará</rel> completamente de los <comp>periodos de suspensión</comp> regulados en el Real Decreto-ley 6/2019, de 1 de marzo, desde su entrada en vigor.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+
+111	A estos efectos, la <e1>dirección de la empresa</e1> <rel>deberá comunicar</rel> de manera fehaciente a los <e2>trabajadores</e2> o a <e2>sus representantes</e2> su <comp>intención de iniciar el procedimiento de despido colectivo</comp>.
 RelationSignature: LegalAgent-LegalEntity (e1, e2)
 RelationType: Duty (rel)
