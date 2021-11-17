@@ -1,0 +1,960 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:prv="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <Ontology>
+        <imports rdf:resource="http://schema.org/"/>
+        <imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDefiniendum -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDefiniendum">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TermDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDefiniens -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDefiniens">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TermDefinition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasEffect -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasEffect">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasEstablishmentAddressee -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasEstablishmentAddressee">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Establishment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitDutyBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitDutyBearer">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightCounterpart"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitDuty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitDutyCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitDutyCounterpart">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightBearer"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitDuty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitLiabilityBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitLiabilityBearer">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerCounterpart"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitLiability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitLiabilityCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitLiabilityCounterpart">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerBearer"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitLiability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitPowerBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitPowerBearer">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityCounterpart"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitPower"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitPowerCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitPowerCounterpart">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityBearer"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitPower"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitRightBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitRightBearer">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyCounterpart"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitRightCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasExplicitRightCounterpart">
+        <equivalentProperty rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyBearer"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyBearer">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitDutyCounterpart">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasDutyCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityBearer">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitLiabilityCounterpart">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerBearer">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitPowerCounterpart">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightBearer">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightBearer"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasImplicitRightCounterpart">
+        <rdfs:subPropertyOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightCounterpart"/>
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityActivity -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityActivity">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasLiabilityObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasOrganizationAddressee -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasOrganizationAddressee">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Organization"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPenalty -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPenalty">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPermissionObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerActivity -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerActivity">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasPowerObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureAddressee -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureAddressee">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProcedureObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasProhibitionObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRedressCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasRightObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasStatusAddressee -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasStatusAddressee">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Status"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasStatusObject -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasStatusObject">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Status"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationAction -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationAction">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationBearer -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationBearer">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationCounterpart -->
+
+    <ObjectProperty rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#hasViolationCounterpart">
+        <rdfs:domain rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Attribution -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Attribution">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Constitutive"/>
+        <rdfs:comment xml:lang="en">class of provisions attributing roles and powers</rdfs:comment>
+        <rdfs:label xml:lang="en">attribution</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Constitutive -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Constitutive">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Rule"/>
+        <rdfs:comment xml:lang="en">class of provisions which introduce or assign a juridical profiles
+to entities of a regulated reality</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ContentAmendment -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ContentAmendment">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnRule"/>
+        <rdfs:comment xml:lang="en">class of amendment provisions which modify literally the content
+of a norm, or their meaning without literal changes</rdfs:comment>
+        <rdfs:label xml:lang="en">content amendment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Creation -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Creation">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Constitutive"/>
+        <rdfs:comment xml:lang="en">class of provisions introducing entities, in the sense that they create previously not-existent entities, of a regulated reality</rdfs:comment>
+        <rdfs:label xml:lang="en">creation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Definition -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Definition">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Constitutive"/>
+        <rdfs:comment xml:lang="en">class of provisions defining and describing entities of a regulated reality</rdfs:comment>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty">
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitDuty"/>
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction"/>
+        <rdfs:comment xml:lang="en">class of provisions indicating the behaviour imposed by a norm</rdfs:comment>
+        <rdfs:label xml:lang="en">duty</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Establishment -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Establishment">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Creation"/>
+        <rdfs:comment xml:lang="en">class of provisions establishing new institutional bodies</rdfs:comment>
+        <rdfs:label xml:lang="en">establishment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitDuty -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitDuty">
+        <equivalentClass rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight"/>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+        <disjointWith rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty"/>
+        <rdfs:comment xml:lang="en">class of the Duties explicitly expressed in a legislative text</rdfs:comment>
+        <rdfs:label xml:lang="en">explicit duty</rdfs:label>
+        <rdfs:label xml:lang="en">explicit right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitLiability -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitLiability">
+        <equivalentClass rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower"/>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+        <disjointWith rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability"/>
+        <rdfs:comment xml:lang="en">class of the liabilities explicitly expressed in a legislative text</rdfs:comment>
+        <rdfs:label xml:lang="en">explicit liability</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitPower -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitPower">
+        <equivalentClass rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability"/>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+        <disjointWith rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower"/>
+        <rdfs:comment xml:lang="en">class of the powers explicitly expressed in a legislative text</rdfs:comment>
+        <rdfs:label xml:lang="en">explicit power</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitRight -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitRight">
+        <equivalentClass rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty"/>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+        <disjointWith rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight"/>
+        <rdfs:comment xml:lang="en">class of the Rights explicitly expressed in a legislative text</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExtensionAmendment -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExtensionAmendment">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnRule"/>
+        <rdfs:comment xml:lang="en">class of amendment provisions which extend or reduce
+the cases on which the norm operates</rdfs:comment>
+        <rdfs:label xml:lang="en">extension amendment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitDuty">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Duty"/>
+        <rdfs:comment xml:lang="en">class of the Duties not expressed in the text, in correlative correspondence with Rights</rdfs:comment>
+        <rdfs:label xml:lang="en">implicit duty</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability"/>
+        <rdfs:comment xml:lang="en">class of the Liabilities not expressed in the text, in correlative correspondence with Powers</rdfs:comment>
+        <rdfs:label xml:lang="en">implicit liability</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power"/>
+        <rdfs:comment xml:lang="en">class of the powers not expressed in the text, in correlative correspondence with liabilities</rdfs:comment>
+        <rdfs:label xml:lang="en">implicit power</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+        <rdfs:comment xml:lang="en">class of the Rights not expressed in the text, in correlative correspondence with Duties</rdfs:comment>
+        <rdfs:label xml:lang="en">implicit right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Liability">
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitLiability"/>
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitLiability"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Attribution"/>
+        <rdfs:comment xml:lang="en">class of provisions establishing a reduction or extension of the rights of a subject</rdfs:comment>
+        <rdfs:label xml:lang="en">liability</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Organization -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Creation"/>
+        <rdfs:comment xml:lang="en">class of provisions which discipline the organization of new institutional bodies</rdfs:comment>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Permission">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction"/>
+        <rdfs:comment xml:lang="en">class of provisions indicating behaviours allowed by competent authorities, even derogating from other provisions</rdfs:comment>
+        <rdfs:label xml:lang="en">permission</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Power">
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitPower"/>
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitPower"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Attribution"/>
+        <rdfs:comment xml:lang="en">class of provisions establishing the possibility of a subject to produce specific juridical effects, namely to establish, modify or cancel a juridical relationship</rdfs:comment>
+        <rdfs:label xml:lang="en">power</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Procedure">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Definition"/>
+        <rdfs:comment xml:lang="en">class of provisions defining and describing procedures, namely the modality of compliance of a provision regulative of actions</rdfs:comment>
+        <rdfs:label xml:lang="en">procedure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Prohibition">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction"/>
+        <rdfs:comment xml:lang="en">class of provisions expressing a duty in negative form</rdfs:comment>
+        <rdfs:label xml:lang="en">prohibition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Provision -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Provision">
+        <rdfs:comment xml:lang="en">Class including all the provisions types (as Term Definition, Procedure, Duty, Right, Power, as well as more technical ones as Insertion, Abrogation, Substitution, etc.) and related attributes (for example the Bearer of a Right, or the Definiendum of a Term Definition), reflecting the lawmaker directions. In the Provision Model, provision types are organised into two main groups: Rules (introducing entities or expressing deontic concepts) and Rules on Rules (different kinds of amendments). The values of provision attributes can be expressed by lexical units, or by concepts derived from thesauri/ontologies, able to provide additional information on the entities of the regulated domain. For each attribute both rdfs:domain and rdfs:range can be specified: rdfs:domain specifies the type of individuals a provision attribute applies to (e.g. the individuals of the class ExplicitDuty for a provision attribute hasExplicitDutyBearer); rdfs:range specifies the type of values of this provision attribute. Since legislative texts can deal with any aspects of the reality, the values of provision attributes which are modeled by OWL object properties may belong to any class of objects (individual of owl:Class). Note that this cannot be formally defined in the ontology in order to guarantee that the ontology is fully-compliant to the OWL 2 DL profile.</rdfs:comment>
+        <rdfs:label xml:lang="en">provision</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Redress">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Remedy"/>
+        <rdfs:comment xml:lang="en">class of provisions that describe the effects of non-compliance with constitutive norms; the result is not a sanction or a punishment, for it is not a breach or violation of any obligation, nor an offence, but nullity</rdfs:comment>
+        <rdfs:label xml:lang="en">redress</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Regulative -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Regulative">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Rule"/>
+        <rdfs:comment xml:lang="en">class of provisions which discipline actions
+or the substantial and procedural defaults (remedies)</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Remedy -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Remedy">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Regulative"/>
+        <rdfs:comment xml:lang="en">class of regulative provisions which discipline substantial and procedural defaults</rdfs:comment>
+        <rdfs:label xml:lang="en">remedy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right">
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ExplicitRight"/>
+                    <rdf:Description rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#ImplicitRight"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction"/>
+        <rdfs:comment xml:lang="en">class of provisions which give the power to act to protect or satisfy a specific interest recognized and protected by the legal system</rdfs:comment>
+        <rdfs:label xml:lang="en">right</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Rule -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Rule">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Provision"/>
+        <rdfs:comment xml:lang="en">class of provisions introducing entities or expressing deontic concepts</rdfs:comment>
+        <rdfs:label xml:lang="en">rule</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnAction">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Regulative"/>
+        <rdfs:comment xml:lang="en">class of regulative provisions which discipline actions</rdfs:comment>
+        <rdfs:label xml:lang="en">rule on action</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnRule -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnRule">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Provision"/>
+        <rdfs:comment xml:lang="en">class of provisions introducing different kinds of amendments (content, temporal and extension amendments)</rdfs:comment>
+        <rdfs:label xml:lang="en">rule on rule</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Status -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Status">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Attribution"/>
+        <rdfs:comment xml:lang="en">class of provisions assigning powers and duties to an addressee with specific requirements,classifying him in a particular category of people or in more restricted community</rdfs:comment>
+        <rdfs:label xml:lang="en">status</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TemporalAmendment -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TemporalAmendment">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#RuleOnRule"/>
+        <rdfs:comment xml:lang="en">class of amendment provisions which modify the times of a norm
+(come-into-force and efficacy times);</rdfs:comment>
+        <rdfs:label xml:lang="en">temporal amendment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TermDefinition -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#TermDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Definition"/>
+        <rdfs:comment xml:lang="en">class of provisions defining and describing terms introducing entities of a regulated reality</rdfs:comment>
+        <rdfs:label xml:lang="en">term definition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation -->
+
+    <Class rdf:about="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Violation">
+        <rdfs:subClassOf rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Remedy"/>
+        <rdfs:comment xml:lang="en">class of provisions that describe the violation of a prohibition, typically linked to an ad-hoc penalty (or sanction)</rdfs:comment>
+        <rdfs:label xml:lang="en">violation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.testuri.com/test_hohfeld#right_1 -->
+
+    <NamedIndividual rdf:about="http://www.testuri.com/test_hohfeld#right_1">
+        <rdf:type rdf:resource="http://www.ittig.cnr.it/ontologies/def/ProvisionModel#Right"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.testuri.com/test_hohfeld#term_1 -->
+
+    <NamedIndividual rdf:about="http://www.testuri.com/test_hohfeld#term_1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label xml:lang="es">trabajador</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.testuri.com/test_hohfeld#term_2 -->
+
+    <NamedIndividual rdf:about="http://www.testuri.com/test_hohfeld#term_2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label xml:lang="es">Administración pública</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.testuri.com/test_hohfeld#term_3 -->
+
+    <NamedIndividual rdf:about="http://www.testuri.com/test_hohfeld#term_3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label xml:lang="es">certificado de profesionalidad</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
