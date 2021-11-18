@@ -2,6 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://www.w3.org/2004/02/skos/core" uri="http://www.w3.org/2004/02/skos/core#"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1637165546494" name="http://www.w3.org/2002/07/owl" uri="duty_sample.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1637248361259" name="http://www.w3.org/2002/07/owl" uri="right_sample.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1637248361259" name="https://schema.org/" uri="schemaorg.owl"/>
     </group>
 </catalog>
