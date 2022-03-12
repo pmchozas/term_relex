@@ -1,0 +1,56 @@
+1	Los <e2>trabajos</e2> <rel>realizados</rel> a título de amistad, benevolencia o buena <e1>vecindad</e1>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+2	Las situaciones de incapacidad temporal, nacimiento, adopción, guarda con fines de adopción, acogimiento, riesgo durante el embarazo, riesgo durante la lactancia y violencia de género <rel>interrumpirán</rel> el cómputo de la duración del <e1>contrato</e1>.
+RelationSignature: LegalConcept-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+
+3	Si el <e2>trabajador</e2> tuviera asignadas condiciones o retribuciones especiales en virtud de contraprestaciones establecidas en la parte no válida del contrato, el <e1>órgano de la jurisdicción social</e1> que a instancia de parte declare la nulidad <rel>hará</rel> el debido <comp>pronunciamiento</comp> sobre la subsistencia o supresión en todo o en parte de dichas condiciones o retribuciones.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Duty (rel)
+
+4	En caso de nulidad por discriminación salarial por razón de sexo, el <e1>trabajador</e1> <rel>tendrá derecho</rel> a la <comp>retribución</comp> correspondiente al trabajo igual o de igual valor.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE2: empresa
+
+5	Si el <e1>empresario</e1> diera un trabajo en común a un grupo de sus <e2>trabajadores</e2>, <rel>conservará</rel> respecto de cada uno, individualmente, sus <comp>derechos y deberes</comp>.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+
+6	El <e1>jefe del grupo</e1> <rel>ostentará</rel> la <comp>representación</comp> de los que lo integren, respondiendo de las obligaciones inherentes a dicha representación.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: Right (rel)
+MissingE2: trabajadores
+
+7	Si el <e1>empresario</e1> hubiese celebrado un contrato con un <e2>grupo de trabajadores</e2> considerado en su totalidad, <rel>no tendrá</rel> frente a cada uno de sus miembros los <comp>derechos y deberes</comp> que como tal le competen.
+RelationSignature: LegalAgent-LegalAgent (e1, e2)
+RelationType: NoRight (rel)
+
+8	<rel>Tampoco se podrá estar</rel> <comp>contratado en prácticas</comp> en la misma <e1>empresa</e1> para el mismo puesto de trabajo por tiempo superior a dos años, aunque se trate de distinta titulación o distinto certificado de profesionalidad.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: NoRight (rel)
+MissingE2: trabajador
+
+9	A los efectos de este artículo, los <e2>títulos de grado</e2>, máster y, en su caso, doctorado, correspondientes a los estudios universitarios no se considerarán la misma titulación, salvo que al ser contratado por primera vez mediante un contrato en prácticas el <e1>trabajador</e1> <rel>estuviera</rel> ya en posesión del título superior de que se trate.
+RelationSignature: LegalAgent-LegalConcept (e1, e2)
+RelationType: Norelation (rel)
+
+10	Si al término del contrato el <e2>trabajador</e2> continuase en la <e1>empresa</e1> <rel>no podrá concertarse</rel> un nuevo <comp>periodo de prueba</comp>, computándose la duración de las prácticas a efecto de antigüedad en la empresa.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Noright (rel)
+
+11	<rel>No se podrán celebrar</rel> <comp>contratos</rel> para la formación y el aprendizaje cuando el puesto de trabajo correspondiente al contrato haya sido desempeñado con anterioridad por el <e2>trabajador</e2> en la misma <e1>empresa</e1> por tiempo superior a doce meses.
+RelationSignature: LegalEntity-LegalAgent (e1, e2)
+RelationType: Noright (rel)
+
+12	No obstante, también <rel>podrá recibir</rel> dicha <comp>formación</comp> en la propia <e2>empresa</e2> cuando la misma dispusiera de las instalaciones y el personal adecuados a los efectos de la acreditación de la competencia o cualificación profesional a que se refiere la letra e), sin perjuicio de la necesidad, en su caso, de la realización de periodos de formación complementarios en los centros de la red mencionada.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
+MissingE1: trabajador
+
+13	El <e1>empresario</e1> y la <e2>representación de los trabajadores</e2> <rel>podrán acordar</rel> en cualquier momento la <comp>sustitución del periodo de consultas</comp> por el procedimiento de mediación o arbitraje que sea de aplicación en el ámbito de la empresa, que deberá desarrollarse dentro del plazo máximo señalado para dicho periodo.
+RelationSignature: LegalAgent-LegalEntity (e1, e2)
+RelationType: Right (rel)
