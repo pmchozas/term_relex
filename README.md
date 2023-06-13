@@ -1,6 +1,10 @@
-# Thesaurus Enhanced Extraction of Hohfeld's Relations from Spanish Labour Law
+# Extraction of Domain-Specific Relations in Spanish Labour Law
 
 The code and data of the related project.
+
+<p align="center">
+<img src="https://github.com/pmchozas/term_relex/blob/master/static/approach.png" width="80%" />
+</p>
 
 ## Structure
 
